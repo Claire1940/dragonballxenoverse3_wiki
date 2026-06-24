@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Dragon Ball Xenoverse 3 - Release, Builds & Characters",
+      "description": "dragon ball xenoverse 3 covers release date, platforms, West City, AGE 1000, races, Soul Assist, Soul Switch, characters, trailers and beginner guides.",
+      "keywords": "dragon ball xenoverse 3, ps5, xbox, steam, release date, west city, soul assist",
+      "ogTitle": "Dragon Ball Xenoverse 3 - Release, Builds & Characters",
+      "ogDescription": "Dragon Ball Xenoverse 3 wiki covers release date, platforms, West City, AGE 1000, races, Soul Assist, Soul Switch, characters, trailers and beginner guides.",
+      "twitterTitle": "Dragon Ball Xenoverse 3 - Release, Builds & Characters",
+      "twitterDescription": "Dragon Ball Xenoverse 3 wiki covers release date, platforms, West City, AGE 1000, races, Soul Assist, Soul Switch, characters and trailers."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Story-Driven Anime Action RPG",
+    "title": "Dragon Ball Xenoverse 3 Wiki",
+    "description": "Create your hero in AGE 1000, explore West City, join the Great Saiya Squad, master race-based combat, Soul Assist and Soul Switch, and track every confirmed character, trailer, platform and release update for Dragon Ball Xenoverse 3.",
+    "getFreeCodesCTA": "Latest News",
+    "playOnSteamCTA": "Wishlist on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2027",
+        "label": "Planned Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PS5 / Xbox Series X|S / PC",
+        "label": "Confirmed Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4",
+        "label": "Original Debut Characters"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "16",
+        "label": "Steam Languages"
       }
     }
   },
@@ -785,18 +785,18 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Dragon Ball Xenoverse 3?",
+    "description": "Wishlist Dragon Ball Xenoverse 3 on Steam, join the player community on Reddit, and stay updated on the 2027 release for PS5, Xbox Series X|S and PC.",
+    "joinCommunity": "Join Reddit Community",
+    "joinGame": "Wishlist on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Dragon Ball Xenoverse 3 Wiki",
+    "description": "Your complete resource hub for Dragon Ball Xenoverse 3 release, platforms, trailers, story, characters, races, combat and builds.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Reddit Community",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Dragon Ball Xenoverse 3 Wiki. Not affiliated with Bandai Namco Entertainment, Dimps, Bird Studio, Shueisha or Toei Animation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
