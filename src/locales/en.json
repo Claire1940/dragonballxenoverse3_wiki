@@ -10,7 +10,15 @@
       "twitterDescription": "Dragon Ball Xenoverse 3 wiki covers release date, platforms, West City, AGE 1000, races, Soul Assist, Soul Switch, characters and trailers."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "trailer": "Trailer",
+    "platforms": "Platforms",
+    "preorder": "Preorder",
+    "requirements": "Requirements",
+    "roster": "Roster",
+    "customization": "Customization"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -591,125 +599,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Dragon Ball Xenoverse 3 Guides",
-      "description": "Complete Dragon Ball Xenoverse 3 guides from beginner basics to advanced combat, story, and release coverage.",
-      "metaTitle": "Dragon Ball Xenoverse 3 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Dragon Ball Xenoverse 3 guides covering release date, platforms, AGE 1000 story, Soul Assist, Soul Switch, characters, and combat tactics.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Dragon Ball Xenoverse 3 release info, story, characters, and combat systems, from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Dragon Ball Xenoverse 3 Release",
+      "description": "Track the official Dragon Ball Xenoverse 3 release window, confirmed platforms, wishlist status, and every Bandai Namco launch update.",
+      "metaTitle": "Dragon Ball Xenoverse 3 Release - Date, Platforms & Launch Status",
+      "metaDescription": "Get the official Dragon Ball Xenoverse 3 release window, confirmed PS5, Xbox Series X|S, and Steam platforms, and launch updates in one place.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 is officially confirmed by Bandai Namco for a planned 2027 launch on PS5, Xbox Series X|S, and PC via Steam, with development led by Dimps.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Soul Assist, Soul Switch, and avoid common beginner mistakes",
-        "step2Title": "Track Release Updates",
-        "step2Description": "Follow confirmed news, trailers, and platform announcements",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for AGE 1000 combat and exploration"
+        "step1Title": "Lock In the Release Window",
+        "step1Description": "Follow the official 2027 launch plan and store status",
+        "step2Title": "Wishlist on Your Platform",
+        "step2Description": "Add the game on Steam, PlayStation, or Xbox for launch alerts",
+        "step3Title": "Stay on Official Updates",
+        "step3Description": "Get confirmed news straight from Bandai Namco announcements"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Updates"
     },
-    "combat": {
-      "title": "Dragon Ball Xenoverse 3 Combat",
-      "description": "Master Soul Assist, Soul Switch, Ki attacks, and race-based combat systems for Dragon Ball Xenoverse 3.",
-      "metaTitle": "Dragon Ball Xenoverse 3 Combat - Soul Assist & Soul Switch Guide",
-      "metaDescription": "Master Dragon Ball Xenoverse 3 combat with Soul Assist, Soul Switch, Ki attacks, and movement strategies for AGE 1000 battles.",
-      "categoryLabel": "COMBAT SYSTEM",
-      "whatIs": "What is Combat?",
-      "whatIsDescription": "Dragon Ball Xenoverse 3 combat blends high-speed close-quarters action with Ki attacks, Soul Assist ally strikes, and Soul Switch soul-harnessing mechanics.",
-      "why": "Why master combat?",
+    "trailer": {
+      "title": "Dragon Ball Xenoverse 3 Trailers",
+      "description": "Watch every official Dragon Ball Xenoverse 3 trailer, from the Welcome to West City gameplay reveal to the announcement trailer and AGE 1000 footage.",
+      "metaTitle": "Dragon Ball Xenoverse 3 Trailers - Welcome to West City & Announcements",
+      "metaDescription": "Watch official Dragon Ball Xenoverse 3 trailers including the Welcome to West City gameplay trailer, announcement trailer, and AGE 1000 reveals.",
+      "categoryLabel": "TRAILERS",
+      "whatIs": "What are Trailers?",
+      "whatIsDescription": "Official Dragon Ball Xenoverse 3 trailers reveal the AGE 1000 world, West City, the Great Saiya Squad, and gameplay systems like Soul Assist and Soul Switch.",
+      "why": "Why watch the trailers?",
       "whySteps": {
-        "step1Title": "Unleash Soul Assist",
-        "step1Description": "Trigger powerful attacks alongside Dragon Ball allies",
-        "step2Title": "Activate Soul Switch",
-        "step2Description": "Harness the soul power of Krillin, Piccolo, Vegeta, and more",
-        "step3Title": "Combine Movement and Ki",
-        "step3Description": "Soar, boost, and chain Ki attacks across the battlefield"
+        "step1Title": "See AGE 1000 First",
+        "step1Description": "Explore the new Dragon Ball future world and West City",
+        "step2Title": "Spot New Characters",
+        "step2Description": "Meet Brett, Lilica, ROM, and Tap in the reveals",
+        "step3Title": "Read the Gameplay",
+        "step3Description": "Break down Soul Assist, Soul Switch, and race-based combat"
       },
       "featured": "Featured & Essential",
-      "all": "All Combat Guides"
+      "all": "All Trailers"
     },
-    "characters": {
+    "platforms": {
+      "title": "Dragon Ball Xenoverse 3 Platforms",
+      "description": "Confirmed Dragon Ball Xenoverse 3 platforms and store pages for PS5, Xbox Series X|S, and PC via Steam, with every supported storefront.",
+      "metaTitle": "Dragon Ball Xenoverse 3 Platforms - PS5, Xbox Series X|S & Steam",
+      "metaDescription": "Find every confirmed Dragon Ball Xenoverse 3 platform and store page, including PS5, Xbox Series X|S, and PC via Steam.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms are supported?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 is officially confirmed for PS5, Xbox Series X|S, and PC via Steam, with dedicated store pages on PlayStation Store, Xbox Store, and Steam.",
+      "why": "Why check platforms?",
+      "whySteps": {
+        "step1Title": "Confirm Your Platform",
+        "step1Description": "See PS5, Xbox Series X|S, and Steam availability",
+        "step2Title": "Open the Right Store",
+        "step2Description": "Jump to the official PlayStation, Xbox, and Steam pages",
+        "step3Title": "Pick Your Edition",
+        "step3Description": "Compare store pages and wishlist your preferred version"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platforms"
+    },
+    "preorder": {
+      "title": "Dragon Ball Xenoverse 3 Preorder",
+      "description": "Wishlist status, pricing, and editions for Dragon Ball Xenoverse 3 across Steam, PlayStation Store, and Xbox Store ahead of launch.",
+      "metaTitle": "Dragon Ball Xenoverse 3 Preorder - Wishlist, Price & Editions",
+      "metaDescription": "Prepare for Dragon Ball Xenoverse 3 with wishlist links, pricing, and edition details across Steam, PlayStation Store, and Xbox Store.",
+      "categoryLabel": "PREORDER",
+      "whatIs": "What is Preorder?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 is open for wishlisting on Steam, PlayStation, and Xbox ahead of its 2027 launch, with standard and collector's editions to compare.",
+      "why": "Why prepare early?",
+      "whySteps": {
+        "step1Title": "Wishlist Now",
+        "step1Description": "Add the game on Steam, PlayStation, or Xbox for alerts",
+        "step2Title": "Compare Editions",
+        "step2Description": "Review standard and collector's edition options",
+        "step3Title": "Track Pricing",
+        "step3Description": "Follow official store prices across regions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Preorder Info"
+    },
+    "requirements": {
+      "title": "Dragon Ball Xenoverse 3 System Requirements",
+      "description": "Dragon Ball Xenoverse 3 PC system requirements, minimum specs, recommended specs, and engine details for Steam players.",
+      "metaTitle": "Dragon Ball Xenoverse 3 System Requirements - Min & Recommended PC Specs",
+      "metaDescription": "Check Dragon Ball Xenoverse 3 PC system requirements including minimum specs, recommended specs, and engine info for Steam.",
+      "categoryLabel": "SYSTEM REQUIREMENTS",
+      "whatIs": "What are the System Requirements?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 PC requirements cover the minimum and recommended specs needed to run the game smoothly on Steam.",
+      "why": "Why check requirements?",
+      "whySteps": {
+        "step1Title": "Match Minimum Specs",
+        "step1Description": "Confirm your PC meets the baseline to launch",
+        "step2Title": "Hit Recommended Specs",
+        "step2Description": "Upgrade for smooth high-speed AGE 1000 combat",
+        "step3Title": "Understand the Engine",
+        "step3Description": "Learn how the engine shapes performance and settings"
+      },
+      "featured": "Featured & Essential",
+      "all": "All System Requirements"
+    },
+    "roster": {
       "title": "Dragon Ball Xenoverse 3 Characters",
-      "description": "Explore original characters like Brett, Lilica, ROM, and Tap, plus returning Dragon Ball heroes in Dragon Ball Xenoverse 3.",
-      "metaTitle": "Dragon Ball Xenoverse 3 Characters - Original & Returning Cast",
-      "metaDescription": "Complete character guide for Dragon Ball Xenoverse 3 including original characters Brett, Lilica, ROM, Tap, plus returning heroes like Bulma and Gamma 1.",
+      "description": "Every confirmed Dragon Ball Xenoverse 3 character, including original heroes Brett, Lilica, ROM, and Tap, returning favorites, playable races, and transformations.",
+      "metaTitle": "Dragon Ball Xenoverse 3 Characters - Roster, Races & Transformations",
+      "metaDescription": "Explore the confirmed Dragon Ball Xenoverse 3 roster including original characters Brett, Lilica, ROM, and Tap, returning heroes, playable races, and transformations.",
       "categoryLabel": "CHARACTERS",
       "whatIs": "Who are the characters?",
-      "whatIsDescription": "Dragon Ball Xenoverse 3 introduces original characters and brings back beloved Dragon Ball heroes in the AGE 1000 setting, all shaped by Akira Toriyama.",
-      "why": "Why study characters?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 brings together original AGE 1000 heroes like Brett, Lilica, ROM, and Tap with returning Dragon Ball favorites, alongside playable races and transformations.",
+      "why": "Why study the roster?",
       "whySteps": {
-        "step1Title": "Meet the Original Cast",
-        "step1Description": "Learn about Brett, Lilica, ROM, and the new AGE 1000 heroes",
-        "step2Title": "Spot Returning Favorites",
-        "step2Description": "See how Bulma, Gamma 1, and other Dragon Ball heroes return",
-        "step3Title": "Build Your Protagonist",
-        "step3Description": "Create and customize the hero you want to become"
+        "step1Title": "Meet the New Heroes",
+        "step1Description": "Get to know Brett, Lilica, ROM, and Tap",
+        "step2Title": "Choose Your Race",
+        "step2Description": "Compare playable races and their combat styles",
+        "step3Title": "Unlock Transformations",
+        "step3Description": "Track Super Saiyan and other transformation paths"
       },
       "featured": "Featured & Essential",
       "all": "All Characters"
     },
-    "story": {
-      "title": "Dragon Ball Xenoverse 3 Story",
-      "description": "Explore the AGE 1000 setting, West City, and the Great Saiyan Squad in the Dragon Ball Xenoverse 3 story.",
-      "metaTitle": "Dragon Ball Xenoverse 3 Story - AGE 1000 & West City Guide",
-      "metaDescription": "Explore the Dragon Ball Xenoverse 3 story including the AGE 1000 setting, West City, the Great Saiyan Squad, and Akira Toriyama's new world.",
-      "categoryLabel": "STORY & LORE",
-      "whatIs": "What is the story?",
-      "whatIsDescription": "Dragon Ball Xenoverse 3 unfolds in AGE 1000, a brand-new Dragon Ball future world centered on West City, the Great Saiyan Squad, and a created protagonist.",
-      "why": "Why follow the story?",
+    "customization": {
+      "title": "Dragon Ball Xenoverse 3 Character Creation",
+      "description": "Build your Dragon Ball Xenoverse 3 avatar with deep character creation, custom characters, and race-based customization in AGE 1000.",
+      "metaTitle": "Dragon Ball Xenoverse 3 Character Creation - Avatar & Custom Characters",
+      "metaDescription": "Create your Dragon Ball Xenoverse 3 avatar with full character creation tools, custom characters, and race-based customization options.",
+      "categoryLabel": "CUSTOMIZATION",
+      "whatIs": "What is Character Creation?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 offers extensive character creation, letting you build a custom avatar whose race shapes combat options across AGE 1000.",
+      "why": "Why customize your hero?",
       "whySteps": {
-        "step1Title": "Enter AGE 1000",
-        "step1Description": "Discover the new Dragon Ball era and its setting",
-        "step2Title": "Explore West City",
-        "step2Description": "Navigate the vibrant city and West City University",
-        "step3Title": "Join the Great Saiyan Squad",
-        "step3Description": "Take your place in the Great Saiyan Squad"
+        "step1Title": "Build Your Avatar",
+        "step1Description": "Design a custom hero that fits your playstyle",
+        "step2Title": "Pick Your Race",
+        "step2Description": "Choose a race that defines your combat abilities",
+        "step3Title": "Express Your Style",
+        "step3Description": "Personalize appearance, gear, and abilities"
       },
       "featured": "Featured & Essential",
-      "all": "All Story Guides"
-    },
-    "news": {
-      "title": "Dragon Ball Xenoverse 3 News",
-      "description": "Track official trailers, Battle Hour 2026 reveals, and the AGE 1000 project announcements for Dragon Ball Xenoverse 3.",
-      "metaTitle": "Dragon Ball Xenoverse 3 News - Trailers & Announcements",
-      "metaDescription": "Follow official Dragon Ball Xenoverse 3 news including the Welcome to West City trailer, Battle Hour 2026 reveal, and AGE 1000 project announcements.",
-      "categoryLabel": "OFFICIAL NEWS",
-      "whatIs": "What is the latest news?",
-      "whatIsDescription": "Stay current on Dragon Ball Xenoverse 3 with official Bandai Namco trailers, reveal events, and platform announcements in one place.",
-      "why": "Why follow the news?",
-      "whySteps": {
-        "step1Title": "Watch Official Trailers",
-        "step1Description": "See the Welcome to West City gameplay trailer",
-        "step2Title": "Track Reveals",
-        "step2Description": "Follow Battle Hour 2026 and AGE 1000 announcements",
-        "step3Title": "Get Release Updates",
-        "step3Description": "Confirm platforms, dates, and store status"
-      },
-      "featured": "Featured & Essential",
-      "all": "All News"
-    },
-    "support": {
-      "title": "Dragon Ball Xenoverse 3 Support",
-      "description": "Platform compatibility, store status, and launch readiness for Dragon Ball Xenoverse 3.",
-      "metaTitle": "Dragon Ball Xenoverse 3 Support - Platforms & Launch Info",
-      "metaDescription": "Get Dragon Ball Xenoverse 3 support including PlayStation 5, Xbox Series X|S, and Steam store status, platform details, and release readiness.",
-      "categoryLabel": "SUPPORT & PLATFORMS",
-      "whatIs": "What support is available?",
-      "whatIsDescription": "Find Dragon Ball Xenoverse 3 platform details, store status, and launch information for PlayStation 5, Xbox Series X|S, and PC via Steam.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Confirm Your Platform",
-        "step1Description": "Check PS5, Xbox Series X|S, and Steam availability",
-        "step2Title": "Wishlist and Track",
-        "step2Description": "Add the game to your wishlist for release alerts",
-        "step3Title": "Prepare for Launch",
-        "step3Description": "Get ready for the 2027 release window"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Customization"
     }
   }
 }

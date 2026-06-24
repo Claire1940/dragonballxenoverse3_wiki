@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Lançamento",
+    "trailer": "Trailer",
+    "platforms": "Plataformas",
+    "preorder": "Pré-venda",
+    "requirements": "Requisitos",
+    "roster": "Personagens",
+    "customization": "Personalização"
+  }
+}

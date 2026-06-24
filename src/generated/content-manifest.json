@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "customization": [
+      {
+        "slug": "dragon-ball-xenoverse-3-avatar",
+        "file": "dragon-ball-xenoverse-3-avatar"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-cac",
+        "file": "dragon-ball-xenoverse-3-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-character-creation",
+        "file": "dragon-ball-xenoverse-3-character-creation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-custom-character",
+        "file": "dragon-ball-xenoverse-3-custom-character"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-3-download",
+        "file": "dragon-ball-xenoverse-3-download"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc",
+        "file": "dragon-ball-xenoverse-3-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps4",
+        "file": "dragon-ball-xenoverse-3-ps4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps5",
+        "file": "dragon-ball-xenoverse-3-ps5"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-steam",
+        "file": "dragon-ball-xenoverse-3-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-switch-2",
+        "file": "dragon-ball-xenoverse-3-switch-2"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox",
+        "file": "dragon-ball-xenoverse-3-xbox"
+      }
+    ],
+    "preorder": [
+      {
+        "slug": "dragon-ball-xenoverse-3-collector-s-edition",
+        "file": "dragon-ball-xenoverse-3-collector's-edition"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playstation-store",
+        "file": "dragon-ball-xenoverse-3-playstation-store"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pre-order",
+        "file": "dragon-ball-xenoverse-3-pre-order"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-price",
+        "file": "dragon-ball-xenoverse-3-price"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-wishlist",
+        "file": "dragon-ball-xenoverse-3-wishlist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox-store",
+        "file": "dragon-ball-xenoverse-3-xbox-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announced",
+        "file": "dragon-ball-xenoverse-3-announced"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-bandai-namco",
+        "file": "dragon-ball-xenoverse-3-bandai-namco"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-confirmed",
+        "file": "dragon-ball-xenoverse-3-confirmed"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-news",
+        "file": "dragon-ball-xenoverse-3-news"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-site",
+        "file": "dragon-ball-xenoverse-3-official-site"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-release-date",
+        "file": "dragon-ball-xenoverse-3-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "dragon-ball-xenoverse-3-engine",
+        "file": "dragon-ball-xenoverse-3-engine"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-minimum-requirements",
+        "file": "dragon-ball-xenoverse-3-minimum-requirements"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc-config",
+        "file": "dragon-ball-xenoverse-3-pc-config"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-specs",
+        "file": "dragon-ball-xenoverse-3-specs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-system-requirements",
+        "file": "dragon-ball-xenoverse-3-system-requirements"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "dragon-ball-xenoverse-3-bulma",
+        "file": "dragon-ball-xenoverse-3-bulma"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-characters",
+        "file": "dragon-ball-xenoverse-3-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-new-races",
+        "file": "dragon-ball-xenoverse-3-new-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playable-races",
+        "file": "dragon-ball-xenoverse-3-playable-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-protagonist",
+        "file": "dragon-ball-xenoverse-3-protagonist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-roster",
+        "file": "dragon-ball-xenoverse-3-roster"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-transformations",
+        "file": "dragon-ball-xenoverse-3-transformations"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announcement-trailer",
+        "file": "dragon-ball-xenoverse-3-announcement-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-demo-gameplay",
+        "file": "dragon-ball-xenoverse-3-demo-gameplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-gameplay-trailer",
+        "file": "dragon-ball-xenoverse-3-gameplay-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-trailer",
+        "file": "dragon-ball-xenoverse-3-official-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-trailer",
+        "file": "dragon-ball-xenoverse-3-trailer"
+      }
+    ]
+  },
+  "es": {
+    "customization": [
+      {
+        "slug": "dragon-ball-xenoverse-3-avatar",
+        "file": "dragon-ball-xenoverse-3-avatar"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-cac",
+        "file": "dragon-ball-xenoverse-3-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-character-creation",
+        "file": "dragon-ball-xenoverse-3-character-creation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-custom-character",
+        "file": "dragon-ball-xenoverse-3-custom-character"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-3-download",
+        "file": "dragon-ball-xenoverse-3-download"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc",
+        "file": "dragon-ball-xenoverse-3-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps4",
+        "file": "dragon-ball-xenoverse-3-ps4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps5",
+        "file": "dragon-ball-xenoverse-3-ps5"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-steam",
+        "file": "dragon-ball-xenoverse-3-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-switch-2",
+        "file": "dragon-ball-xenoverse-3-switch-2"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox",
+        "file": "dragon-ball-xenoverse-3-xbox"
+      }
+    ],
+    "preorder": [
+      {
+        "slug": "dragon-ball-xenoverse-3-collector-s-edition",
+        "file": "dragon-ball-xenoverse-3-collector's-edition"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playstation-store",
+        "file": "dragon-ball-xenoverse-3-playstation-store"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pre-order",
+        "file": "dragon-ball-xenoverse-3-pre-order"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-price",
+        "file": "dragon-ball-xenoverse-3-price"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-wishlist",
+        "file": "dragon-ball-xenoverse-3-wishlist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox-store",
+        "file": "dragon-ball-xenoverse-3-xbox-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announced",
+        "file": "dragon-ball-xenoverse-3-announced"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-bandai-namco",
+        "file": "dragon-ball-xenoverse-3-bandai-namco"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-confirmed",
+        "file": "dragon-ball-xenoverse-3-confirmed"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-news",
+        "file": "dragon-ball-xenoverse-3-news"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-site",
+        "file": "dragon-ball-xenoverse-3-official-site"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-release-date",
+        "file": "dragon-ball-xenoverse-3-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "dragon-ball-xenoverse-3-engine",
+        "file": "dragon-ball-xenoverse-3-engine"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-minimum-requirements",
+        "file": "dragon-ball-xenoverse-3-minimum-requirements"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc-config",
+        "file": "dragon-ball-xenoverse-3-pc-config"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-specs",
+        "file": "dragon-ball-xenoverse-3-specs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-system-requirements",
+        "file": "dragon-ball-xenoverse-3-system-requirements"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "dragon-ball-xenoverse-3-bulma",
+        "file": "dragon-ball-xenoverse-3-bulma"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-characters",
+        "file": "dragon-ball-xenoverse-3-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-new-races",
+        "file": "dragon-ball-xenoverse-3-new-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playable-races",
+        "file": "dragon-ball-xenoverse-3-playable-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-protagonist",
+        "file": "dragon-ball-xenoverse-3-protagonist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-roster",
+        "file": "dragon-ball-xenoverse-3-roster"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-transformations",
+        "file": "dragon-ball-xenoverse-3-transformations"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announcement-trailer",
+        "file": "dragon-ball-xenoverse-3-announcement-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-demo-gameplay",
+        "file": "dragon-ball-xenoverse-3-demo-gameplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-gameplay-trailer",
+        "file": "dragon-ball-xenoverse-3-gameplay-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-trailer",
+        "file": "dragon-ball-xenoverse-3-official-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-trailer",
+        "file": "dragon-ball-xenoverse-3-trailer"
+      }
+    ]
+  },
+  "ja": {
+    "customization": [
+      {
+        "slug": "dragon-ball-xenoverse-3-avatar",
+        "file": "dragon-ball-xenoverse-3-avatar"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-cac",
+        "file": "dragon-ball-xenoverse-3-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-character-creation",
+        "file": "dragon-ball-xenoverse-3-character-creation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-custom-character",
+        "file": "dragon-ball-xenoverse-3-custom-character"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-3-download",
+        "file": "dragon-ball-xenoverse-3-download"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc",
+        "file": "dragon-ball-xenoverse-3-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps4",
+        "file": "dragon-ball-xenoverse-3-ps4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps5",
+        "file": "dragon-ball-xenoverse-3-ps5"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-steam",
+        "file": "dragon-ball-xenoverse-3-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-switch-2",
+        "file": "dragon-ball-xenoverse-3-switch-2"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox",
+        "file": "dragon-ball-xenoverse-3-xbox"
+      }
+    ],
+    "preorder": [
+      {
+        "slug": "dragon-ball-xenoverse-3-collector-s-edition",
+        "file": "dragon-ball-xenoverse-3-collector's-edition"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playstation-store",
+        "file": "dragon-ball-xenoverse-3-playstation-store"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pre-order",
+        "file": "dragon-ball-xenoverse-3-pre-order"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-price",
+        "file": "dragon-ball-xenoverse-3-price"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-wishlist",
+        "file": "dragon-ball-xenoverse-3-wishlist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox-store",
+        "file": "dragon-ball-xenoverse-3-xbox-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announced",
+        "file": "dragon-ball-xenoverse-3-announced"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-bandai-namco",
+        "file": "dragon-ball-xenoverse-3-bandai-namco"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-confirmed",
+        "file": "dragon-ball-xenoverse-3-confirmed"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-news",
+        "file": "dragon-ball-xenoverse-3-news"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-site",
+        "file": "dragon-ball-xenoverse-3-official-site"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-release-date",
+        "file": "dragon-ball-xenoverse-3-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "dragon-ball-xenoverse-3-engine",
+        "file": "dragon-ball-xenoverse-3-engine"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-minimum-requirements",
+        "file": "dragon-ball-xenoverse-3-minimum-requirements"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc-config",
+        "file": "dragon-ball-xenoverse-3-pc-config"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-specs",
+        "file": "dragon-ball-xenoverse-3-specs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-system-requirements",
+        "file": "dragon-ball-xenoverse-3-system-requirements"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "dragon-ball-xenoverse-3-bulma",
+        "file": "dragon-ball-xenoverse-3-bulma"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-characters",
+        "file": "dragon-ball-xenoverse-3-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-new-races",
+        "file": "dragon-ball-xenoverse-3-new-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playable-races",
+        "file": "dragon-ball-xenoverse-3-playable-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-protagonist",
+        "file": "dragon-ball-xenoverse-3-protagonist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-roster",
+        "file": "dragon-ball-xenoverse-3-roster"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-transformations",
+        "file": "dragon-ball-xenoverse-3-transformations"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announcement-trailer",
+        "file": "dragon-ball-xenoverse-3-announcement-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-demo-gameplay",
+        "file": "dragon-ball-xenoverse-3-demo-gameplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-gameplay-trailer",
+        "file": "dragon-ball-xenoverse-3-gameplay-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-trailer",
+        "file": "dragon-ball-xenoverse-3-official-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-trailer",
+        "file": "dragon-ball-xenoverse-3-trailer"
+      }
+    ]
+  },
+  "pt": {
+    "customization": [
+      {
+        "slug": "dragon-ball-xenoverse-3-avatar",
+        "file": "dragon-ball-xenoverse-3-avatar"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-cac",
+        "file": "dragon-ball-xenoverse-3-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-character-creation",
+        "file": "dragon-ball-xenoverse-3-character-creation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-custom-character",
+        "file": "dragon-ball-xenoverse-3-custom-character"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-3-download",
+        "file": "dragon-ball-xenoverse-3-download"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc",
+        "file": "dragon-ball-xenoverse-3-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps4",
+        "file": "dragon-ball-xenoverse-3-ps4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-ps5",
+        "file": "dragon-ball-xenoverse-3-ps5"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-steam",
+        "file": "dragon-ball-xenoverse-3-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-switch-2",
+        "file": "dragon-ball-xenoverse-3-switch-2"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox",
+        "file": "dragon-ball-xenoverse-3-xbox"
+      }
+    ],
+    "preorder": [
+      {
+        "slug": "dragon-ball-xenoverse-3-collector-s-edition",
+        "file": "dragon-ball-xenoverse-3-collector's-edition"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playstation-store",
+        "file": "dragon-ball-xenoverse-3-playstation-store"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pre-order",
+        "file": "dragon-ball-xenoverse-3-pre-order"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-price",
+        "file": "dragon-ball-xenoverse-3-price"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-wishlist",
+        "file": "dragon-ball-xenoverse-3-wishlist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-xbox-store",
+        "file": "dragon-ball-xenoverse-3-xbox-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announced",
+        "file": "dragon-ball-xenoverse-3-announced"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-bandai-namco",
+        "file": "dragon-ball-xenoverse-3-bandai-namco"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-confirmed",
+        "file": "dragon-ball-xenoverse-3-confirmed"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-news",
+        "file": "dragon-ball-xenoverse-3-news"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-site",
+        "file": "dragon-ball-xenoverse-3-official-site"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-release-date",
+        "file": "dragon-ball-xenoverse-3-release-date"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "dragon-ball-xenoverse-3-engine",
+        "file": "dragon-ball-xenoverse-3-engine"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-minimum-requirements",
+        "file": "dragon-ball-xenoverse-3-minimum-requirements"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-pc-config",
+        "file": "dragon-ball-xenoverse-3-pc-config"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-specs",
+        "file": "dragon-ball-xenoverse-3-specs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-system-requirements",
+        "file": "dragon-ball-xenoverse-3-system-requirements"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "dragon-ball-xenoverse-3-bulma",
+        "file": "dragon-ball-xenoverse-3-bulma"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-characters",
+        "file": "dragon-ball-xenoverse-3-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-new-races",
+        "file": "dragon-ball-xenoverse-3-new-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-playable-races",
+        "file": "dragon-ball-xenoverse-3-playable-races"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-protagonist",
+        "file": "dragon-ball-xenoverse-3-protagonist"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-roster",
+        "file": "dragon-ball-xenoverse-3-roster"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-transformations",
+        "file": "dragon-ball-xenoverse-3-transformations"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "dragon-ball-xenoverse-3-announcement-trailer",
+        "file": "dragon-ball-xenoverse-3-announcement-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-demo-gameplay",
+        "file": "dragon-ball-xenoverse-3-demo-gameplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-gameplay-trailer",
+        "file": "dragon-ball-xenoverse-3-gameplay-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-official-trailer",
+        "file": "dragon-ball-xenoverse-3-official-trailer"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-3-trailer",
+        "file": "dragon-ball-xenoverse-3-trailer"
+      }
+    ]
+  }
+}

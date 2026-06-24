@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "リリース",
+    "trailer": "トレーラー",
+    "platforms": "プラットフォーム",
+    "preorder": "予約",
+    "requirements": "動作環境",
+    "roster": "キャラクター",
+    "customization": "カスタマイズ"
+  }
+}

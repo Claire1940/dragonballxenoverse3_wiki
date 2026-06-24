@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sitio oficial de dragon ball xenoverse 3: Guía de lanzamiento y características",
+  description: "Explora los detalles del sitio oficial de dragon ball xenoverse 3, incluyendo la ventana de lanzamiento para 2027, la ambientación en el AÑO 1000, el combate Soul Switch y los personajes confirmados.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/ffffff?text=Xenoverse+3+Official+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de dragon ball xenoverse 3"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Sitio oficial de dragon ball xenoverse 3**: El centro principal para el lanzamiento de 2027 en PS5, Xbox Series X|S y Steam.
+- **Nueva ambientación**: La historia se traslada al **AÑO 1000**, presentando una Ciudad del Oeste altamente desarrollada y al Great Saiya Squad.
+- **Mecánicas de combate**: Introduce **Soul Assist** para ataques potenciados por aliados y **Soul Switch** para cambios temporales de habilidades.
+- **Personalización de personajes**: Extensos sistemas de rol permiten a los jugadores crear héroes únicos con opciones de combate basadas en la raza.
+- **Estado de la lista de deseos**: Las páginas oficiales de las tiendas ya están activas en Steam, PlayStation Store y Xbox Store para su seguimiento.
+</Callout>
+
+<Section icon={Map} title="Estado de lanzamiento oficial y disponibilidad de plataformas">
+
+El **sitio oficial de dragon ball xenoverse 3** ha confirmado que la tan esperada secuela está programada para una amplia ventana de lanzamiento en 2027. Desarrollado por Dimps Corporation y publicado por Bandai Namco Entertainment, esta entrega marca una década de evolución para la franquicia. Actualmente, el juego está optimizado para consolas de novena generación y PC, garantizando una experiencia de alta fidelidad que aprovecha las capacidades del hardware moderno.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5">
+    - **Estado**: Anunciado
+    - **Acción**: Añadir a la lista de deseos
+    - **Distribuidor**: Bandai Namco US
+  </Card>
+  <Card title="Xbox Series X|S">
+    - **Estado**: Página de la tienda activa
+    - **Acción**: Seguir actualizaciones
+    - **Desarrollador**: Dimps Corp
+  </Card>
+  <Card title="PC a través de Steam">
+    - **Estado**: Planificado para 2027
+    - **Acción**: Lista de deseos disponible
+    - **Idiomas**: 16 soportados
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Nota sobre plataformas">
+Aunque los fans han especulado sobre una versión para Nintendo Switch o "Switch 2", el sitio oficial actualmente solo incluye PS5, Xbox Series X|S y PC. Evita los rumores no oficiales sobre versiones portátiles hasta que Bandai Namco proporcione una actualización formal.
+</Callout>
+
+| Característica | Especificación oficial |
+| :--- | :--- |
+| **Año de lanzamiento** | **2027** |
+| **Género principal** | Acción, Aventura, Rol |
+| **Desarrollador** | Dimps Corporation |
+| **Distribuidor** | Bandai Namco Entertainment |
+| **Multijugador** | Modos online y offline confirmados |
+| **Personalización** | Creador de personajes extenso |
+
+</Section>
+
+<Section icon={Target} title="AÑO 1000: Explorando el nuevo mundo y Ciudad del Oeste">
+
+El núcleo narrativo del juego avanza hacia el **AÑO 1000**, una era vibrante y tecnológicamente avanzada del universo de Dragon Ball. A diferencia de títulos anteriores que se centraban en gran medida en la corrección histórica, esta entrega enfatiza la exploración dentro de un "Nuevo Mundo" al que dio vida la visión de Akira Toriyama. Los jugadores pasarán un tiempo significativo en **Ciudad del Oeste**, que sirve como centro principal para el progreso de la historia y la interacción social.
+
+<Checklist
+  id="story-features"
+  title="Elementos confirmados de la historia:"
+  items={[
+    "Explora una Ciudad del Oeste y la Universidad de Ciudad del Oeste completamente recreadas",
+    "Únete a las filas del Great Saiya Squad",
+    "Interactúa con personajes originales como Brett y Lilica",
+    "Descubre los misterios de la línea temporal del AÑO 1000",
+    "Participa en misiones de rol basadas en la historia con caminos ramificados"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de exploración">
+El tráiler "Welcome to West City" sugiere que el movimiento en la ciudad es más fluido que en los centros anteriores, lo que permite a los jugadores volar e impulsarse a través del horizonte para llegar rápidamente a diferentes marcadores de misión.
+</Callout>
+
+| Ubicación | Descripción | Actividad clave |
+| :--- | :--- | :--- |
+| **Ciudad del Oeste** | El principal centro urbano del AÑO 1000 | Misiones, Compras, Social |
+| **Universidad de Ciudad del Oeste** | Un destacado punto de referencia académico | Puntos de la historia, interacción con NPC |
+| **Zonas de campo de batalla** | Entornos de combate a gran escala | Combate aéreo de alta velocidad |
+| **Capsule Corp** | Centro tecnológico | Mejoras de equipo, Personalización |
+
+</Section>
+
+<Section icon={Swords} title="Innovación en el combate: Soul Assist y Soul Switch">
+
+El combate en esta secuela conserva el movimiento aéreo en 3D a alta velocidad por el que es conocida la serie, pero introduce dos mecánicas transformadoras: **Soul Assist** y **Soul Switch**. Estos sistemas se alejan del simple intercambio de personajes y, en su lugar, se centran en el "alma" de los legendarios guerreros de Dragon Ball para mejorar al protagonista personalizado del jugador.
+
+<Steps>
+  <Step num="1" title="Iniciar Soul Assist">
+    Desencadena un ataque coordinado donde un aliado de Dragon Ball aparece momentáneamente para lanzar una poderosa ráfaga de Ki o un golpe físico junto a tu avatar.
+  </Step>
+  <Step num="2" title="Activar Soul Switch">
+    Aprovecha temporalmente el poder del alma de un héroe específico. Esto cambia tu conjunto de movimientos y otorga acceso a habilidades únicas vinculadas al estilo de lucha de ese personaje.
+  </Step>
+  <Step num="3" title="Dominar habilidades basadas en la raza">
+    Utiliza las ventajas específicas de cada raza, como las transformaciones Super Saiyan de varios niveles de los Saiyan o la versatilidad de combate equilibrada de los Terrícolas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Profundidad estratégica">
+Soul Switch no es solo un cambio estético; te permite adaptarte a los patrones del enemigo en mitad del combate. Por ejemplo, cambiar al alma de Piccolo podría otorgar un mejor alcance defensivo, mientras que el alma de Vegeta enfatiza una producción agresiva de Ki.
+</Callout>
+
+| Ejemplo de Soul Switch | Rol en combate | Beneficio principal |
+| :--- | :--- | :--- |
+| **Vegeta** | Potencia ofensiva | Mayor daño de Ki, combos agresivos |
+| **Piccolo** | Defensor táctico | Ataques basados en el alcance, utilidad de salud |
+| **Trunks del Futuro** | Especialista en espada | Ataques cuerpo a cuerpo rápidos, movilidad |
+| **Krillin** | Soporte y utilidad | Ataques de Ki de disparo rápido, control de masas |
+| **Tien Shinhan** | Atacante de precisión | Golpes individuales de alto impacto, roturas de resistencia |
+
+</Section>
+
+<Section icon={Sparkles} title="Elenco de personajes y centro de personalización">
+
+El **sitio oficial de dragon ball xenoverse 3** destaca una mezcla de nuevos personajes originales y el regreso de iconos clásicos. Aunque el protagonista creado por el jugador sigue siendo el líder, la interacción con el elenco del "Nuevo Mundo" es fundamental para la experiencia de rol. La personalización se extiende más allá de la estética, influyendo en cómo interactúa tu personaje con los sistemas de Alma y su efectividad en diferentes roles de combate.
+
+<CardGrid cols={2}>
+  <Card title="Personajes originales debutantes">
+    Conoce a **Brett, Lilica, ROM y Tap**. Estos personajes son nativos del AÑO 1000 y proporcionan la fuerza narrativa principal para el Great Saiya Squad.
+  </Card>
+  <Card title="Leyendas que regresan">
+    Personajes clásicos como **Bulma y Gamma 1** aparecen en roles actualizados, actuando como mentores o contactos dentro del entorno desarrollado de Ciudad del Oeste.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dato del personaje">
+Los materiales de prensa oficiales confirman que los diseños de Akira Toriyama son la base de los nuevos personajes originales, asegurando que se sientan como una parte auténtica del mito de Dragon Ball a pesar de la ambientación futurista.
+</Callout>
+
+| Personaje | Tipo | Facción | Rol |
+| :--- | :--- | :--- | :--- |
+| **Avatar personalizado** | Creado por el jugador | Great Saiya Squad | Protagonista principal |
+| **Brett** | Original | Habitantes del AÑO 1000 | Aliado de la historia |
+| **Lilica** | Original | Habitantes del AÑO 1000 | Aliada de la historia |
+| **Gamma 1** | Regresa | Great Saiya Squad | Mentor / Contacto |
+| **Bulma** | Regresa | Ciudad del Oeste / Capsule Corp | Soporte técnico |
+
+</Section>
+
+<Section icon={Shield} title="Comparación de tiendas y guía de lista de deseos">
+
+A medida que se acerca el lanzamiento en 2027, los fans deben seguir de cerca las tiendas oficiales para rastrear precios, ediciones especiales y posibles bonificaciones de reserva. Aunque no se han listado "Códigos de canje" ni "Recompensas de reserva" activos a fecha de junio de 2026, la estructura para estos sistemas se suele revelar más cerca de la fecha de lanzamiento.
+
+| Tienda | Plataforma | Estado de lista de deseos | Característica única |
+| :--- | :--- | :--- | :--- |
+| **Steam** | PC | **Disponible** | 16 idiomas soportados |
+| **PlayStation Store** | PS5 | **Disponible** | Página de concepto activa |
+| **Xbox Store** | Series X\|S | **Disponible** | Optimizado para X\|S |
+| **Sitio de Bandai Namco** | Todas | **Registro por correo** | Noticias oficiales y kits de prensa |
+
+<Callout type="warning" title="Alerta de seguridad">
+Ten cuidado con los sitios de terceros que afirman ofrecer "Códigos de acceso a la beta" o "Desbloqueos de personajes gratuitos" para este juego. El sitio oficial es la única fuente verificada para obtener acceso y recompensas legítimas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuándo es la fecha de lanzamiento de dragon ball xenoverse 3?",
+    answer: "Según el sitio oficial y la página de Steam, el juego está programado para lanzarse en 2027. Aún no se ha anunciado un día y mes específicos."
+  },
+  {
+    question: "¿Qué plataformas serán compatibles con el juego?",
+    answer: "Las plataformas confirmadas son PlayStation 5, Xbox Series X|S y PC a través de Steam. Actualmente no hay confirmación oficial para Nintendo Switch o consolas de la generación anterior."
+  },
+  {
+    question: "¿Qué es la nueva mecánica de Soul Switch?",
+    answer: "Soul Switch permite a tu personaje personalizado aprovechar temporalmente las habilidades y estilos de lucha de personajes legendarios de Dragon Ball como Vegeta, Piccolo y Trunks del Futuro durante la batalla."
+  },
+  {
+    question: "¿Puedo crear mi propio personaje en Xenoverse 3?",
+    answer: "Sí, el juego cuenta con una amplia personalización de personajes, lo que te permite elegir tu raza y construir a tu héroe para que se adapte a la historia del AÑO 1000."
+  }
+]} />
+
+</Section>
