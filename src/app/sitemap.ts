@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragonballxenoverse3.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（Dragon Ball Xenoverse 3 实际分类）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.9,
+	'trailer': 0.9,
+	'roster': 0.9,
+	'platforms': 0.8,
+	'preorder': 0.8,
+	'requirements': 0.8,
+	'customization': 0.8,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（Dragon Ball Xenoverse 3 实际分类）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'weekly',
+	'trailer': 'weekly',
+	'preorder': 'weekly',
+	'roster': 'weekly',
+	'platforms': 'monthly',
+	'requirements': 'monthly',
+	'customization': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

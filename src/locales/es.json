@@ -1,11 +1,743 @@
 {
+  "seo": {
+    "home": {
+      "title": "Dragon Ball Xenoverse 3 - Lanzamiento, Builds y Personajes",
+      "description": "Dragon Ball Xenoverse 3 cubre fecha de lanzamiento, plataformas, West City, AGE 1000, razas, Soul Assist, Soul Switch, personajes, tráileres y guías para principiantes.",
+      "keywords": "dragon ball xenoverse 3, ps5, xbox, steam, fecha de lanzamiento, west city, soul assist",
+      "ogTitle": "Dragon Ball Xenoverse 3 - Lanzamiento, Builds y Personajes",
+      "ogDescription": "La wiki de Dragon Ball Xenoverse 3 cubre fecha de lanzamiento, plataformas, West City, AGE 1000, razas, Soul Assist, Soul Switch, personajes, tráileres y guías para principiantes.",
+      "twitterTitle": "Dragon Ball Xenoverse 3 - Lanzamiento, Builds y Personajes",
+      "twitterDescription": "La wiki de Dragon Ball Xenoverse 3 cubre fecha de lanzamiento, plataformas, West City, AGE 1000, razas, Soul Assist, Soul Switch, personajes y tráileres."
+    }
+  },
   "nav": {
     "release": "Lanzamiento",
     "trailer": "Tráiler",
     "platforms": "Plataformas",
     "preorder": "Reserva",
     "requirements": "Requisitos",
-    "roster": "Personajes",
+    "roster": "Plantilla",
     "customization": "Personalización"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de acción de anime basado en la historia",
+    "title": "Wiki de Dragon Ball Xenoverse 3",
+    "description": "Crea a tu héroe en AGE 1000, explora West City, únete al Great Saiya Squad, domina el combate basado en razas, Soul Assist y Soul Switch, y sigue cada personaje confirmado, tráiler, plataforma y actualización de lanzamiento para Dragon Ball Xenoverse 3.",
+    "getFreeCodesCTA": "Últimas noticias",
+    "playOnSteamCTA": "Lista de deseos en Steam",
+    "stats": {
+      "stat1": {
+        "value": "2027",
+        "label": "Lanzamiento previsto"
+      },
+      "stat2": {
+        "value": "PS5 / Xbox Series X|S / PC",
+        "label": "Plataformas confirmadas"
+      },
+      "stat3": {
+        "value": "4",
+        "label": "Personajes de debut originales"
+      },
+      "stat4": {
+        "value": "16",
+        "label": "Idiomas en Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Dragon Ball Xenoverse 3",
+    "description": "Crea a tu héroe en AGE 1000, explora West City y domina la acción de anime de alta velocidad con Soul Assist, Soul Switch, Ki Attacks y movimientos vertiginosos en el campo de batalla."
+  },
+  "tools": {
+    "title": "Dragon Ball Xenoverse 3",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para el lanzamiento, plataformas, historia, personajes, builds, ediciones, códigos y sistemas de combate de Dragon Ball Xenoverse 3",
+    "cards": [
+      {
+        "icon": "Rocket",
+        "title": "Fecha de lanzamiento y plataformas",
+        "description": "Ventana de lanzamiento en 2027 para PS5, Xbox Series X|S y estado en la tienda Steam"
+      },
+      {
+        "icon": "Clapperboard",
+        "title": "Noticias oficiales y cronología",
+        "description": "Revelaciones de tráileres, Battle Hour 2026 y el proyecto AGE 1000"
+      },
+      {
+        "icon": "Map",
+        "title": "Guía de historia de AGE 1000",
+        "description": "West City, el Great Saiyan Squad y personajes originales"
+      },
+      {
+        "icon": "Swords",
+        "title": "Jugabilidad y combate",
+        "description": "Soul Assist, Soul Switch, Ki Attacks y sistemas de movimiento"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes y plantilla",
+        "description": "Personajes de debut originales, héroes de Dragon Ball que regresan y aliados de Soul Switch en Dragon Ball Xenoverse 3"
+      },
+      {
+        "icon": "SlidersHorizontal",
+        "title": "Builds y personalización",
+        "description": "Creación de avatar, Ki Attacks, Soul Assist y pilares de builds de Soul Switch para Dragon Ball Xenoverse 3"
+      },
+      {
+        "icon": "Store",
+        "title": "Ediciones y lista de deseos",
+        "description": "Compara las páginas de las tiendas de Steam, PlayStation 5, Xbox Series X|S y Bandai Namco para Dragon Ball Xenoverse 3"
+      },
+      {
+        "icon": "Gift",
+        "title": "Códigos y bonificaciones",
+        "description": "Canjea códigos, bonificaciones de reserva, recompensas de plataforma y estado de la lista de deseos para Dragon Ball Xenoverse 3"
+      }
+    ]
+  },
+  "modules": {
+    "dbxv3ReleaseDatePlatforms": {
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento, plataformas y estado en tiendas de Dragon Ball Xenoverse 3",
+      "subtitle": "Dragon Ball Xenoverse 3 está programado para 2027 en PlayStation 5, Xbox Series X|S y PC a través de Steam, con las páginas oficiales de las tiendas ya disponibles para añadir a la lista de deseos.",
+      "intro": "Usa esta sección para confirmar la ventana de lanzamiento oficial, las plataformas compatibles, el desarrollador, el distribuidor y el estado en tiendas de Dragon Ball Xenoverse 3. La ventana de lanzamiento confirmada es 2027 para PlayStation 5, Xbox Series X|S y PC a través de Steam.",
+      "displayType": "info-cards",
+      "items": [
+        {
+          "label": "Ventana de lanzamiento",
+          "value": "2027",
+          "details": "Bandai Namco, Steam, PlayStation Store y las publicaciones del anuncio oficial listan Dragon Ball Xenoverse 3 para 2027."
+        },
+        {
+          "label": "Plataformas confirmadas",
+          "value": "PlayStation 5, Xbox Series X|S, PC via Steam",
+          "details": "La página oficial del juego lista PlayStation 5, Xbox Series X|S y Steam. Las páginas de Steam y de las tiendas de consolas ya están disponibles."
+        },
+        {
+          "label": "Desarrollador",
+          "value": "Dimps Corporation",
+          "details": "El sitio oficial lista DIMPS, mientras que Steam y Xbox listan a Dimps Corporation como el desarrollador de Dragon Ball Xenoverse 3."
+        },
+        {
+          "label": "Distribuidor",
+          "value": "Bandai Namco Entertainment",
+          "details": "Steam lista a Bandai Namco Entertainment Inc.; las páginas de las tiendas de PlayStation y Xbox en EE. UU. listan a Bandai Namco Entertainment America Inc."
+        },
+        {
+          "label": "Género oficial",
+          "value": "Action / Adventure",
+          "details": "Bandai Namco lista el juego como Action / Adventure. Steam también lista Action, Adventure y RPG para Dragon Ball Xenoverse 3."
+        },
+        {
+          "label": "Estado en Steam",
+          "value": "Planned Release Date: 2027",
+          "details": "La página de Steam permite a los jugadores añadir Dragon Ball Xenoverse 3 a su lista de deseos para recibir notificaciones de lanzamiento."
+        },
+        {
+          "label": "Estado en PlayStation",
+          "value": "Announced, Add to Wishlist",
+          "details": "La página de PlayStation Store lista el lanzamiento para 2027 y ofrece la opción de añadir a la lista de deseos para Dragon Ball Xenoverse 3."
+        },
+        {
+          "label": "Estado en Xbox",
+          "value": "Xbox Series X|S store page live",
+          "details": "La página de Xbox lista Dragon Ball Xenoverse 3 para Xbox Series X|S, con Bandai Namco Entertainment America como distribuidor y Dimps Corporation como desarrollador."
+        }
+      ]
+    },
+    "dbxv3OfficialNewsTimeline": {
+      "eyebrow": "Actualizaciones oficiales",
+      "title": "Cronología oficial de noticias y tráileres de Dragon Ball Xenoverse 3",
+      "subtitle": "Sigue la trayectoria confirmada de anuncios, desde la revelación del proyecto AGE 1000 hasta el tráiler de jugabilidad Welcome to West City de Dragon Ball Xenoverse 3.",
+      "intro": "Esta cronología reúne los hitos principales de la revelación de Dragon Ball Xenoverse 3 en un solo lugar: el primer anuncio del proyecto AGE 1000, la presentación en el Dragon Ball Games Battle Hour 2026 y el tráiler más reciente de West City centrado en la jugabilidad.",
+      "displayType": "timeline",
+      "items": [
+        {
+          "date": "2026-06-23",
+          "type": "Tráiler de jugabilidad",
+          "headline": "El tráiler Welcome to West City muestra más jugabilidad",
+          "summary": "Bandai Namco reveló más jugabilidad de Dragon Ball Xenoverse 3, mostrando West City, el entorno de AGE 1000, Bulma, Gamma 1, West City University, el Great Saiyan Squad, los personajes originales Brett, Lilica, ROM y Tap, además de los sistemas de combate Soul Assist y Soul Switch."
+        },
+        {
+          "date": "2026-04-20",
+          "type": "Resumen del evento",
+          "headline": "El resumen del Dragon Ball Games Battle Hour 2026 destaca la revelación de Xenoverse 3",
+          "summary": "El resumen del Battle Hour de Bandai Namco confirma Dragon Ball Xenoverse 3 como el nuevo juego de Dragon Ball previamente anunciado como AGE 1000, con un lanzamiento en 2027 para PlayStation 5, Xbox Series X|S y PC a través de Steam."
+        },
+        {
+          "date": "2026-04-19",
+          "type": "Revelación oficial",
+          "headline": "Dragon Ball Xenoverse 3 se revela oficialmente",
+          "summary": "El anuncio confirma el regreso de la serie Dragon Ball Xenoverse después de 10 años, con un nuevo mundo de Dragon Ball creado por Akira Toriyama, el entorno de AGE 1000, West City y la premisa del Great Saiyan Squad."
+        },
+        {
+          "date": "2026-01-26",
+          "type": "Anuncio del proyecto",
+          "headline": "Se anuncia Dragon Ball Game Project AGE 1000 para 2027",
+          "summary": "Bandai Namco anuncia un nuevo proyecto de juego de Dragon Ball llamado AGE 1000 tras el evento Dragon Ball Genkidamatsuri, describiendo un mundo de Dragon Ball completamente nuevo y personajes originales creados por Akira Toriyama."
+        }
+      ]
+    },
+    "dbxv3Age1000Story": {
+      "eyebrow": "Historia",
+      "title": "Guía de la historia de AGE 1000 de Dragon Ball Xenoverse 3",
+      "subtitle": "Dragon Ball Xenoverse 3 traslada la serie a AGE 1000, un mundo futuro de Dragon Ball centrado en West City y un nuevo elenco de personajes originales.",
+      "intro": "La configuración confirmada de la historia de Dragon Ball Xenoverse 3 sitúa al jugador en un universo de Dragon Ball completamente nuevo donde creará su propio protagonista, explorará West City y se unirá a la Great Saiyan Squad a medida que se desarrollan los acontecimientos.",
+      "displayType": "story-cards",
+      "items": [
+        {
+          "title": "AGE 1000",
+          "category": "Ambientación",
+          "description": "AGE 1000 es la nueva era de Dragon Ball utilizada para Dragon Ball Xenoverse 3. Las descripciones oficiales lo presentan como un mundo de Dragon Ball inexplorado y un universo futuro completamente nuevo."
+        },
+        {
+          "title": "West City",
+          "category": "Ubicación principal",
+          "description": "West City se describe como una ciudad desarrollada y vibrante donde los jugadores exploran, encuentran personajes y descubren nuevas historias. El tráiler Welcome to West City también ofrece un vistazo a la vida en la West City University."
+        },
+        {
+          "title": "Great Saiyan Squad",
+          "category": "Rol del jugador",
+          "description": "Los jugadores son guiados a las filas de la Great Saiyan Squad y luchan junto a aliados a medida que la historia de Dragon Ball Xenoverse 3 comienza a tomar forma."
+        },
+        {
+          "title": "Protagonista creado",
+          "category": "Configuración del héroe",
+          "description": "Los jugadores eligen al héroe en el que se quieren convertir y ocupan su lugar en la historia, continuando con el enfoque de Xenoverse en un protagonista creado por el jugador en Dragon Ball Xenoverse 3."
+        },
+        {
+          "title": "Personajes originales",
+          "category": "Nuevo elenco",
+          "description": "Dragon Ball Xenoverse 3 presenta personajes originales en el nuevo mundo de Dragon Ball. El tráiler de West City nombra a Brett, Lilica, ROM y Tap como personajes que debutan."
+        },
+        {
+          "title": "Personajes de Dragon Ball que regresan",
+          "category": "Enlaces con la serie",
+          "description": "Queridos personajes de Dragon Ball aparecen junto al protagonista del jugador. El tráiler de West City presenta específicamente a Bulma y Gamma 1 en el entorno de AGE 1000."
+        },
+        {
+          "title": "Conexión con Akira Toriyama",
+          "category": "Diseño del mundo",
+          "description": "Las descripciones oficiales de Bandai Namco y de las tiendas afirman que el nuevo mundo de Dragon Ball y los personajes originales únicos de Dragon Ball Xenoverse 3 cobran vida gracias a Akira Toriyama, el autor original de Dragon Ball."
+        },
+        {
+          "title": "Dirección de RPG basada en la historia",
+          "category": "Experiencia",
+          "description": "Bandai Namco describe Dragon Ball Xenoverse 3 como una experiencia épica de RPG basada en la historia con un viaje lleno de acción hacia el nuevo universo y su elenco de personajes."
+        }
+      ]
+    },
+    "dbxv3GameplayCombat": {
+      "eyebrow": "Jugabilidad",
+      "title": "Guía de jugabilidad y combate de Dragon Ball Xenoverse 3",
+      "subtitle": "Dragon Ball Xenoverse 3 mantiene el enfoque de acción a alta velocidad de la serie al tiempo que añade las mecánicas Soul Assist y Soul Switch para un combate potenciado por aliados.",
+      "intro": "Esta guía convierte los detalles confirmados de la jugabilidad de Dragon Ball Xenoverse 3 en un flujo sencillo a primera vista, desde la creación de un protagonista y el desplazamiento por West City hasta el uso de Ki attacks, Soul Assist y Soul Switch en la batalla.",
+      "displayType": "step-by-step",
+      "items": [
+        {
+          "step": 1,
+          "title": "Crea al héroe que quieres ser",
+          "description": "Las descripciones oficiales dicen que los jugadores deciden el héroe en el que se quieren convertir en un mundo inexplorado de Dragon Ball. Steam también incluye amplias opciones de personalización de personajes para Dragon Ball Xenoverse 3."
+        },
+        {
+          "step": 2,
+          "title": "Explora West City en AGE 1000",
+          "description": "Los jugadores viajan a través de la desarrollada y vibrante West City, encuentran personajes y descubren nuevas historias en el entorno de AGE 1000 de Dragon Ball Xenoverse 3."
+        },
+        {
+          "step": 3,
+          "title": "Vuela y acelera por los espacios de combate",
+          "description": "Bandai Namco describe a los jugadores volando por West City y acelerando por el campo de batalla, manteniendo el estilo de movimiento rápido vinculado al combate de Dragon Ball Xenoverse."
+        },
+        {
+          "step": 4,
+          "title": "Lucha con combate cuerpo a cuerpo y Ki attacks",
+          "description": "Dragon Ball Xenoverse 3 presenta intensas batallas con ataques basados en energía, combate cuerpo a cuerpo y poderosos Ki Attacks contra los enemigos."
+        },
+        {
+          "step": 5,
+          "title": "Usa Soul Assist con un aliado de Dragon Ball",
+          "description": "Soul Assist permite a los jugadores desatar un ataque poderoso junto a un aliado poderoso del universo de Dragon Ball en Dragon Ball Xenoverse 3."
+        },
+        {
+          "step": 6,
+          "title": "Activa Soul Switch para obtener poder de alma temporal",
+          "description": "Soul Switch permite a los jugadores aprovechar temporalmente el poder del alma de un personaje de Dragon Ball para ganar fuerza y nuevas habilidades durante el combate de Dragon Ball Xenoverse 3."
+        },
+        {
+          "step": 7,
+          "title": "Prueba los ejemplos confirmados de Soul Switch",
+          "description": "Las noticias oficiales de la jugabilidad de West City nombran a Krillin, Piccolo, Vegeta, Future Trunks y Tien como ejemplos de almas vinculadas a la mecánica Soul Switch de Dragon Ball Xenoverse 3."
+        },
+        {
+          "step": 8,
+          "title": "Sigue las futuras revelaciones del sistema",
+          "description": "Bandai Namco afirma que se revelarán más detalles sobre esta entrega de Xenoverse en los próximos meses, lo que la convierte en la base para futuras actualizaciones de combate de Dragon Ball Xenoverse 3."
+        }
+      ]
+    },
+    "dbxv3CharactersRoster": {
+      "eyebrow": "Personajes",
+      "title": "Personajes y elenco de Dragon Ball Xenoverse 3",
+      "subtitle": "Conoce a los rostros clave de AGE 1000, incluyendo al protagonista creado por el jugador, los aliados de Great Saiya Squad, personajes originales debutantes y héroes de Dragon Ball vinculados a los sistemas de combate.",
+      "intro": "Dragon Ball Xenoverse 3 traslada la serie a AGE 1000, un nuevo escenario en West City donde los jugadores crean a su propio protagonista y se unen a Great Saiya Squad. Esta sección del elenco se centra en las introducciones de la historia, los personajes originales y los héroes de Soul Switch mostrados a través de la información oficial de Bandai Namco y de las tiendas.",
+      "displayType": "card-list",
+      "items": [
+        {
+          "name": "Protagonista creado por el jugador",
+          "type": "Héroe personalizado",
+          "role": "Personaje jugable principal",
+          "faction": "Great Saiya Squad",
+          "details": "Los jugadores se convierten en el protagonista que eligen crear y ocupan su lugar en la historia de West City."
+        },
+        {
+          "name": "Bulma",
+          "type": "Personaje recurrente de Dragon Ball",
+          "role": "Introducción a la historia",
+          "faction": "West City",
+          "details": "Bulma aparece en el tráiler de bienvenida a West City y ayuda a presentar al jugador el escenario de AGE 1000."
+        },
+        {
+          "name": "Gamma 1",
+          "type": "Personaje recurrente de Dragon Ball",
+          "role": "Contacto de Great Saiya Squad",
+          "faction": "Great Saiya Squad",
+          "details": "Gamma 1 da la bienvenida a los jugadores a las filas de Great Saiya Squad y aparece en la revelación de West City."
+        },
+        {
+          "name": "Brett",
+          "type": "Personaje debutante original",
+          "role": "Miembro del elenco de West City",
+          "faction": "AGE 1000",
+          "details": "Brett es uno de los personajes originales que debuta en la franquicia en Dragon Ball Xenoverse 3."
+        },
+        {
+          "name": "Lilica",
+          "type": "Personaje debutante original",
+          "role": "Miembro del elenco de West City",
+          "faction": "AGE 1000",
+          "details": "Lilica figura entre los nuevos personajes originales presentados para la historia de AGE 1000."
+        },
+        {
+          "name": "ROM",
+          "type": "Personaje debutante original",
+          "role": "Miembro del elenco de West City",
+          "faction": "AGE 1000",
+          "details": "ROM es parte del nuevo elenco que debuta en Dragon Ball Xenoverse 3."
+        },
+        {
+          "name": "Tap",
+          "type": "Personaje debutante original",
+          "role": "Miembro del elenco de West City",
+          "faction": "AGE 1000",
+          "details": "Tap es uno de los personajes originales que los jugadores conocen en la nueva historia de West City."
+        },
+        {
+          "name": "Krillin",
+          "type": "Personaje de Soul Switch",
+          "role": "Poder de alma temporal",
+          "faction": "Aliados de Dragon Ball",
+          "details": "Krillin es uno de los personajes de Dragon Ball cuyo poder de alma se puede aprovechar a través de la mecánica de Soul Switch."
+        },
+        {
+          "name": "Piccolo",
+          "type": "Personaje de Soul Switch",
+          "role": "Poder de alma temporal",
+          "faction": "Aliados de Dragon Ball",
+          "details": "Piccolo está incluido en los ejemplos de Soul Switch, lo que permite a los jugadores obtener nuevas habilidades durante el combate."
+        },
+        {
+          "name": "Vegeta",
+          "type": "Personaje de Soul Switch",
+          "role": "Poder de alma temporal",
+          "faction": "Aliados de Dragon Ball",
+          "details": "Vegeta figura como un alma de Dragon Ball que los jugadores pueden aprovechar temporalmente a través de Soul Switch."
+        },
+        {
+          "name": "Future Trunks",
+          "type": "Personaje de Soul Switch",
+          "role": "Poder de alma temporal",
+          "faction": "Aliados de Dragon Ball",
+          "details": "Future Trunks está incluido entre los ejemplos de Soul Switch para la mejora temporal del combate."
+        },
+        {
+          "name": "Tien",
+          "type": "Personaje de Soul Switch",
+          "role": "Poder de alma temporal",
+          "faction": "Aliados de Dragon Ball",
+          "details": "Tien es uno de los ejemplos de Soul Switch utilizados para obtener nuevas habilidades en la batalla."
+        }
+      ]
+    },
+    "dbxv3BuildsCustomization": {
+      "eyebrow": "Builds",
+      "title": "Sistemas de personalización y Builds de Dragon Ball Xenoverse 3",
+      "subtitle": "Planifica en torno a los pilares fundamentales de personalización: un protagonista creado, acción a alta velocidad, Ki Attacks, exploración de West City, Soul Assist y Soul Switch.",
+      "intro": "Dragon Ball Xenoverse 3 está diseñado en torno a la creación de tu propio héroe en un mundo inexplorado de Dragon Ball. El ciclo de combate y personalización se centra en la identidad del avatar, la personalización del personaje, el movimiento rápido, los ataques basados en Ki, los ataques de aliados y los poderes de alma temporales.",
+      "displayType": "build-grid",
+      "items": [
+        {
+          "name": "Identidad del héroe creado",
+          "category": "Base del avatar",
+          "focus": "Protagonista creado por el jugador",
+          "details": "Los jugadores eligen al héroe que quieren ser y se convierten en el protagonista que crean.",
+          "playerUse": "Construye la identidad de tu héroe antes de adentrarte en la historia de AGE 1000."
+        },
+        {
+          "name": "Personalización exhaustiva de personajes",
+          "category": "Personalización",
+          "focus": "Configuración de personaje personalizada",
+          "details": "La página de Steam describe Dragon Ball Xenoverse 3 como una experiencia de acción y aventura repleta de amplias opciones de personalización de personajes.",
+          "playerUse": "Modifica el aspecto y la identidad de combate del héroe según tu estilo de juego preferido."
+        },
+        {
+          "name": "Acción a alta velocidad",
+          "category": "Estilo de combate",
+          "focus": "Movimiento rápido y fluidez en batallas aéreas",
+          "details": "El combate expande la acción a alta velocidad característica de la serie, con los jugadores volando por West City y acelerando por el campo de batalla.",
+          "playerUse": "Usa la velocidad, el posicionamiento y la fluidez de movimiento para controlar los combates."
+        },
+        {
+          "name": "Combate con Ki Attacks",
+          "category": "Herramienta de combate",
+          "focus": "Ofensiva basada en energía",
+          "details": "Los jugadores pueden desatar poderosos Ki Attacks contra los enemigos durante las batallas.",
+          "playerUse": "Usa los Ki Attacks como el elemento central de daño a distancia y de ráfaga en el combate."
+        },
+        {
+          "name": "Soul Assist",
+          "category": "Mecánica de aliados",
+          "focus": "Soporte de ataque en equipo",
+          "details": "Soul Assist permite a los jugadores desatar un ataque poderoso junto a un aliado fuerte del universo de Dragon Ball.",
+          "playerUse": "Activa el poder de los aliados para lograr momentos ofensivos más fuertes durante la batalla."
+        },
+        {
+          "name": "Soul Switch",
+          "category": "Sistema de poder temporal",
+          "focus": "Aprovecha el alma de un personaje de Dragon Ball",
+          "details": "Soul Switch permite a los jugadores usar temporalmente el poder de personajes como Krillin, Piccolo, Vegeta, Future Trunks y Tien para obtener nuevas habilidades.",
+          "playerUse": "Cambia a un estado de poder temporal para modificar tus habilidades y reforzar tus opciones de combate."
+        }
+      ]
+    },
+    "dbxv3EditionsPrice": {
+      "eyebrow": "Guía de la tienda",
+      "title": "Guía de ediciones, precios y lista de deseos de Dragon Ball Xenoverse 3",
+      "subtitle": "Compara las páginas oficiales de las tiendas de Steam, PlayStation 5, Xbox Series X|S y la página del juego de Bandai Namco antes del lanzamiento.",
+      "intro": "Dragon Ball Xenoverse 3 está programado para 2027 con acceso a la lista de deseos en las tiendas oficiales. Las páginas oficiales muestran la disponibilidad de plataformas, el estado de la lista de deseos, el año de lanzamiento, el distribuidor, el desarrollador, el género y las descripciones del producto.",
+      "displayType": "comparison-table",
+      "items": [
+        {
+          "storefront": "Sitio oficial de Bandai Namco",
+          "platform": "PlayStation 5, Xbox Series X|S, Steam",
+          "releaseStatus": "2027",
+          "wishlistStatus": "Añadir a la lista de deseos ya",
+          "price": "No listado",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "DIMPS",
+          "publisher": "Bandai Namco Entertainment",
+          "genre": "Acción / Aventura",
+          "href": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-3"
+        },
+        {
+          "storefront": "Steam",
+          "platform": "PC a través de Steam",
+          "releaseStatus": "Fecha de lanzamiento prevista: 2027",
+          "wishlistStatus": "Lista de deseos disponible",
+          "price": "No listado",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "Dimps Corporation",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "genre": "Acción, Aventura, RPG",
+          "href": "https://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/"
+        },
+        {
+          "storefront": "PlayStation Store",
+          "platform": "PlayStation 5",
+          "releaseStatus": "Anunciado, se lanza en 2027",
+          "wishlistStatus": "Añadir a la lista de deseos",
+          "price": "No listado",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "DIMPS",
+          "publisher": "Bandai Namco Entertainment America Inc.",
+          "genre": "Lucha, Casual, Acción",
+          "href": "https://store.playstation.com/en-us/concept/10013126/"
+        },
+        {
+          "storefront": "Xbox Store",
+          "platform": "Xbox Series X|S",
+          "releaseStatus": "2027",
+          "wishlistStatus": "Página de la tienda disponible",
+          "price": "No listado",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "DIMPS",
+          "publisher": "Bandai Namco Entertainment",
+          "genre": "Acción / Aventura",
+          "href": "https://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-3/9n30klm8jp2s"
+        }
+      ]
+    },
+    "dbxv3CodesBonuses": {
+      "eyebrow": "Códigos",
+      "title": "Códigos, bonificaciones y recompensas de lanzamiento de Dragon Ball Xenoverse 3",
+      "subtitle": "Realiza un seguimiento de los códigos de canje oficiales, las bonificaciones por reserva, las recompensas de plataforma, las actualizaciones del boletín y el estado de las recompensas de lanzamiento de Bandai Namco y las tiendas oficiales.",
+      "intro": "Dragon Ball Xenoverse 3 destaca el acceso a la lista de deseos, los listados de tiendas, la disponibilidad en plataformas y el registro de correo electrónico de Bandai Namco. Esta sección organiza los canales oficiales de recompensas y las opciones de lista de deseos en Bandai Namco y cada tienda.",
+      "displayType": "code-cards",
+      "items": [
+        {
+          "name": "Códigos de canje oficiales",
+          "status": "No hay códigos oficiales activos listados",
+          "rewardType": "Códigos de canje",
+          "whereToCheck": "Página oficial del juego y página de noticias de Bandai Namco",
+          "action": "Usa solo códigos publicados a través de los canales oficiales de Bandai Namco."
+        },
+        {
+          "name": "Bonificaciones por reserva",
+          "status": "No hay bonificaciones por reserva listadas",
+          "rewardType": "Recompensas por reserva",
+          "whereToCheck": "Sitio oficial, página de Steam, PlayStation Store y Xbox Store",
+          "action": "Realiza un seguimiento de las páginas de las tiendas para ver actualizaciones de ediciones o reservas."
+        },
+        {
+          "name": "Bonificaciones de plataforma",
+          "status": "No hay bonificaciones exclusivas de plataforma listadas",
+          "rewardType": "Recompensas de plataforma",
+          "whereToCheck": "Listados de Steam, PlayStation Store y Xbox Store",
+          "action": "Compara las páginas oficiales de las tiendas cuando aparezcan ediciones específicas de cada plataforma."
+        },
+        {
+          "name": "Actualizaciones por correo electrónico de Bandai Namco",
+          "status": "Registro disponible",
+          "rewardType": "Noticias y actualizaciones de marketing",
+          "whereToCheck": "Página oficial de Dragon Ball Xenoverse 3 de Bandai Namco",
+          "action": "Usa el registro oficial de correo electrónico para recibir actualizaciones de Dragon Ball Xenoverse 3."
+        },
+        {
+          "name": "Lista de deseos de Steam",
+          "status": "Lista de deseos disponible",
+          "rewardType": "Notificación de lanzamiento",
+          "whereToCheck": "Página de la tienda de Steam",
+          "action": "Añade el juego a una lista de deseos de Steam para recibir actualizaciones de disponibilidad."
+        },
+        {
+          "name": "Lista de deseos de PlayStation",
+          "status": "Lista de deseos disponible",
+          "rewardType": "Notificación de lanzamiento",
+          "whereToCheck": "Página de concepto de PlayStation Store",
+          "action": "Añade el juego a una lista de deseos de PlayStation para recibir actualizaciones de la tienda."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Dragon Ball Xenoverse 3",
+    "questions": [
+      {
+        "question": "¿Qué es Dragon Ball Xenoverse 3?",
+        "answer": "Dragon Ball Xenoverse 3 es un RPG de acción basado en la historia ambientado en AGE 1000, donde creas tu propio héroe, exploras West City, te unes a la Great Saiyan Squad y luchas con los sistemas de combate Soul Assist y Soul Switch."
+      },
+      {
+        "question": "¿Cuándo es la fecha de lanzamiento de Dragon Ball Xenoverse 3?",
+        "answer": "Dragon Ball Xenoverse 3 está programado para lanzarse en 2027 en PlayStation 5, Xbox Series X|S y PC a través de Steam, con páginas de tienda ya activas para agregar a la lista de deseos."
+      },
+      {
+        "question": "¿Qué plataformas son compatibles con Dragon Ball Xenoverse 3?",
+        "answer": "Dragon Ball Xenoverse 3 está confirmado para PlayStation 5, Xbox Series X|S y PC a través de Steam. Desarrollado por Dimps y publicado por Bandai Namco Entertainment."
+      },
+      {
+        "question": "¿Qué es el sistema Soul Switch en Dragon Ball Xenoverse 3?",
+        "answer": "Soul Switch permite a tu héroe aprovechar temporalmente el poder del alma de un personaje de Dragon Ball durante el combate. Las almas de ejemplo confirmadas incluyen a Krillin, Piccolo, Vegeta, Future Trunks y Tien."
+      },
+      {
+        "question": "¿Qué es el escenario de AGE 1000 en Dragon Ball Xenoverse 3?",
+        "answer": "AGE 1000 es la nueva era de Dragon Ball para Dragon Ball Xenoverse 3, centrada en West City y un elenco de personajes originales como Brett, Lilica, ROM y Tap, a los que da vida Akira Toriyama."
+      },
+      {
+        "question": "¿Quién desarrolla y publica Dragon Ball Xenoverse 3?",
+        "answer": "Dragon Ball Xenoverse 3 es desarrollado por Dimps Corporation y publicado por Bandai Namco Entertainment, haciendo regresar la serie Xenoverse después de diez años."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Dragon Ball Xenoverse 3?",
+    "description": "Añade Dragon Ball Xenoverse 3 a tu lista de deseos en Steam, únete a la comunidad de jugadores en Reddit y mantente al día sobre el lanzamiento en 2027 para PS5, Xbox Series X|S y PC.",
+    "joinCommunity": "Únete a la comunidad de Reddit",
+    "joinGame": "Añadir a la lista de deseos en Steam"
+  },
+  "footer": {
+    "title": "Dragon Ball Xenoverse 3 Wiki",
+    "description": "Tu centro de recursos completo para el lanzamiento, plataformas, tráileres, historia, personajes, razas, combate y builds de Dragon Ball Xenoverse 3.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Comunidad de Reddit",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Dragon Ball Xenoverse 3 Wiki. No afiliado con Bandai Namco Entertainment, Dimps, Bird Studio, Shueisha o Toei Animation.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Dragon Ball Xenoverse 3",
+      "description": "Sigue la ventana de lanzamiento oficial de Dragon Ball Xenoverse 3, las plataformas confirmadas, el estado de la lista de deseos y cada actualización de lanzamiento de Bandai Namco.",
+      "metaTitle": "Lanzamiento de Dragon Ball Xenoverse 3 - Fecha, plataformas y estado de lanzamiento",
+      "metaDescription": "Obtén la ventana de lanzamiento oficial de Dragon Ball Xenoverse 3, las plataformas confirmadas PS5, Xbox Series X|S y Steam, y las actualizaciones de lanzamiento en un solo lugar.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 está confirmado oficialmente por Bandai Namco para un lanzamiento planificado en 2027 en PS5, Xbox Series X|S y PC a través de Steam, con el desarrollo liderado por Dimps.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Asegura la ventana de lanzamiento",
+        "step1Description": "Sigue el plan de lanzamiento oficial para 2027 y el estado de las tiendas",
+        "step2Title": "Añádelo a la lista de deseos en tu plataforma",
+        "step2Description": "Añade el juego en Steam, PlayStation o Xbox para recibir alertas de lanzamiento",
+        "step3Title": "Mantente al día con las actualizaciones oficiales",
+        "step3Description": "Recibe noticias confirmadas directamente de los anuncios de Bandai Namco"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las actualizaciones de lanzamiento"
+    },
+    "trailer": {
+      "title": "Tráileres de Dragon Ball Xenoverse 3",
+      "description": "Mira cada tráiler oficial de Dragon Ball Xenoverse 3, desde la revelación de jugabilidad de Welcome to West City hasta el tráiler de anuncio y el metraje de AGE 1000.",
+      "metaTitle": "Tráileres de Dragon Ball Xenoverse 3 - Welcome to West City y anuncios",
+      "metaDescription": "Mira los tráileres oficiales de Dragon Ball Xenoverse 3, incluyendo el tráiler de jugabilidad de Welcome to West City, el tráiler de anuncio y las revelaciones de AGE 1000.",
+      "categoryLabel": "TRÁILERES",
+      "whatIs": "¿Qué son los tráileres?",
+      "whatIsDescription": "Los tráileres oficiales de Dragon Ball Xenoverse 3 revelan el mundo de AGE 1000, West City, el Great Saiya Squad y sistemas de juego como Soul Assist y Soul Switch.",
+      "why": "¿Por qué ver los tráileres?",
+      "whySteps": {
+        "step1Title": "Mira AGE 1000 primero",
+        "step1Description": "Explora el nuevo mundo del futuro de Dragon Ball y West City",
+        "step2Title": "Descubre nuevos personajes",
+        "step2Description": "Conoce a Brett, Lilica, ROM y Tap en las revelaciones",
+        "step3Title": "Analiza la jugabilidad",
+        "step3Description": "Desglosa Soul Assist, Soul Switch y el combate basado en razas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los tráileres"
+    },
+    "platforms": {
+      "title": "Plataformas de Dragon Ball Xenoverse 3",
+      "description": "Plataformas y páginas de tienda confirmadas de Dragon Ball Xenoverse 3 para PS5, Xbox Series X|S y PC a través de Steam, con cada tienda compatible.",
+      "metaTitle": "Plataformas de Dragon Ball Xenoverse 3 - PS5, Xbox Series X|S y Steam",
+      "metaDescription": "Encuentra cada plataforma y página de tienda confirmada de Dragon Ball Xenoverse 3, incluyendo PS5, Xbox Series X|S y PC a través de Steam.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿Qué plataformas son compatibles?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 está oficialmente confirmado para PS5, Xbox Series X|S y PC a través de Steam, con páginas de tienda dedicadas en PlayStation Store, Xbox Store y Steam.",
+      "why": "¿Por qué comprobar las plataformas?",
+      "whySteps": {
+        "step1Title": "Confirma tu plataforma",
+        "step1Description": "Consulta la disponibilidad en PS5, Xbox Series X|S y Steam",
+        "step2Title": "Abre la tienda correcta",
+        "step2Description": "Ve a las páginas oficiales de PlayStation, Xbox y Steam",
+        "step3Title": "Elige tu edición",
+        "step3Description": "Compara las páginas de las tiendas y añade a tu lista de deseos tu versión preferida"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las plataformas"
+    },
+    "preorder": {
+      "title": "Reserva de Dragon Ball Xenoverse 3",
+      "description": "Estado de la lista de deseos, precios y ediciones de Dragon Ball Xenoverse 3 en Steam, PlayStation Store y Xbox Store antes del lanzamiento.",
+      "metaTitle": "Reserva de Dragon Ball Xenoverse 3 - Lista de deseos, precio y ediciones",
+      "metaDescription": "Prepárate para Dragon Ball Xenoverse 3 con enlaces a la lista de deseos, precios y detalles de las ediciones en Steam, PlayStation Store y Xbox Store.",
+      "categoryLabel": "RESERVA",
+      "whatIs": "¿Qué es la reserva?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 ya se puede añadir a la lista de deseos en Steam, PlayStation y Xbox antes de su lanzamiento en 2027, con ediciones estándar y de coleccionista para comparar.",
+      "why": "¿Por qué prepararse temprano?",
+      "whySteps": {
+        "step1Title": "Añade a la lista de deseos ahora",
+        "step1Description": "Añade el juego en Steam, PlayStation o Xbox para recibir alertas",
+        "step2Title": "Compara ediciones",
+        "step2Description": "Revisa las opciones de la edición estándar y de coleccionista",
+        "step3Title": "Sigue los precios",
+        "step3Description": "Sigue los precios oficiales de las tiendas en las distintas regiones"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la información de la reserva"
+    },
+    "requirements": {
+      "title": "Requisitos del sistema de Dragon Ball Xenoverse 3",
+      "description": "Requisitos del sistema para PC de Dragon Ball Xenoverse 3, especificaciones mínimas, recomendadas y detalles del motor para jugadores de Steam.",
+      "metaTitle": "Requisitos del sistema de Dragon Ball Xenoverse 3 - Especificaciones de PC mínimas y recomendadas",
+      "metaDescription": "Consulta los requisitos del sistema para PC de Dragon Ball Xenoverse 3, incluyendo especificaciones mínimas, recomendadas e información del motor para Steam.",
+      "categoryLabel": "REQUISITOS DEL SISTEMA",
+      "whatIs": "¿Cuáles son los requisitos del sistema?",
+      "whatIsDescription": "Los requisitos para PC de Dragon Ball Xenoverse 3 cubren las especificaciones mínimas y recomendadas necesarias para ejecutar el juego sin problemas en Steam.",
+      "why": "¿Por qué comprobar los requisitos?",
+      "whySteps": {
+        "step1Title": "Cumple con las especificaciones mínimas",
+        "step1Description": "Confirma que tu PC cumple con la base mínima para iniciar el juego",
+        "step2Title": "Alcanza las especificaciones recomendadas",
+        "step2Description": "Actualiza tu equipo para un combate fluido y de alta velocidad en AGE 1000",
+        "step3Title": "Comprende el motor",
+        "step3Description": "Aprende cómo el motor influye en el rendimiento y la configuración"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los requisitos del sistema"
+    },
+    "roster": {
+      "title": "Personajes de Dragon Ball Xenoverse 3",
+      "description": "Todos los personajes confirmados de Dragon Ball Xenoverse 3, incluidos los héroes originales Brett, Lilica, ROM y Tap, los favoritos que regresan, las razas jugables y las transformaciones.",
+      "metaTitle": "Personajes de Dragon Ball Xenoverse 3 - Plantilla, razas y transformaciones",
+      "metaDescription": "Explora la plantilla confirmada de Dragon Ball Xenoverse 3, incluidos los personajes originales Brett, Lilica, ROM y Tap, los héroes que regresan, las razas jugables y las transformaciones.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Quiénes son los personajes?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 reúne a héroes originales de AGE 1000 como Brett, Lilica, ROM y Tap con los favoritos que regresan de Dragon Ball, junto con razas jugables y transformaciones.",
+      "why": "¿Por qué estudiar la plantilla?",
+      "whySteps": {
+        "step1Title": "Conoce a los nuevos héroes",
+        "step1Description": "Conoce a Brett, Lilica, ROM y Tap",
+        "step2Title": "Elige tu raza",
+        "step2Description": "Compara las razas jugables y sus estilos de combate",
+        "step3Title": "Desbloquea transformaciones",
+        "step3Description": "Sigue el camino de Super Saiyan y otras transformaciones"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los personajes"
+    },
+    "customization": {
+      "title": "Creación de personajes de Dragon Ball Xenoverse 3",
+      "description": "Crea tu avatar de Dragon Ball Xenoverse 3 con una profunda creación de personajes, personajes personalizados y personalización basada en la raza en AGE 1000.",
+      "metaTitle": "Creación de personajes de Dragon Ball Xenoverse 3 - Avatar y personajes personalizados",
+      "metaDescription": "Crea tu avatar de Dragon Ball Xenoverse 3 con herramientas completas de creación de personajes, personajes personalizados y opciones de personalización basadas en la raza.",
+      "categoryLabel": "PERSONALIZACIÓN",
+      "whatIs": "¿Qué es la creación de personajes?",
+      "whatIsDescription": "Dragon Ball Xenoverse 3 ofrece una amplia creación de personajes, lo que te permite crear un avatar personalizado cuya raza define las opciones de combate en AGE 1000.",
+      "why": "¿Por qué personalizar a tu héroe?",
+      "whySteps": {
+        "step1Title": "Crea tu avatar",
+        "step1Description": "Diseña un héroe personalizado que se adapte a tu estilo de juego",
+        "step2Title": "Elige tu raza",
+        "step2Description": "Elige una raza que defina tus habilidades de combate",
+        "step3Title": "Expresa tu estilo",
+        "step3Description": "Personaliza tu apariencia, equipamiento y habilidades"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la personalización"
+    }
   }
 }
