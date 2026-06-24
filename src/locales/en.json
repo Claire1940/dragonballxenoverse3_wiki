@@ -58,7 +58,7 @@
   "tools": {
     "title": "Dragon Ball Xenoverse 3",
     "titleHighlight": "Guides",
-    "subtitle": "Everything you need for the Dragon Ball Xenoverse 3 release, story, official news, and combat systems",
+    "subtitle": "Everything you need for Dragon Ball Xenoverse 3 release, platforms, story, characters, builds, editions, codes and combat systems",
     "cards": [
       {
         "icon": "Rocket",
@@ -79,6 +79,26 @@
         "icon": "Swords",
         "title": "Gameplay & Combat",
         "description": "Soul Assist, Soul Switch, Ki attacks, and movement systems"
+      },
+      {
+        "icon": "Users",
+        "title": "Characters & Roster",
+        "description": "Original debut characters, returning Dragon Ball heroes, and Soul Switch allies in Dragon Ball Xenoverse 3"
+      },
+      {
+        "icon": "SlidersHorizontal",
+        "title": "Builds & Customization",
+        "description": "Avatar creation, Ki attacks, Soul Assist, and Soul Switch build pillars for Dragon Ball Xenoverse 3"
+      },
+      {
+        "icon": "Store",
+        "title": "Editions & Wishlist",
+        "description": "Compare Steam, PlayStation 5, Xbox Series X|S, and Bandai Namco store pages for Dragon Ball Xenoverse 3"
+      },
+      {
+        "icon": "Gift",
+        "title": "Codes & Bonuses",
+        "description": "Redeem codes, preorder bonuses, platform rewards, and wishlist status for Dragon Ball Xenoverse 3"
       }
     ]
   },
@@ -260,6 +280,258 @@
           "step": 8,
           "title": "Follow future system reveals",
           "description": "Bandai Namco states that more details about this Xenoverse entry will be revealed in the months ahead, making this the base for future Dragon Ball Xenoverse 3 combat updates."
+        }
+      ]
+    },
+    "dbxv3CharactersRoster": {
+      "eyebrow": "Characters",
+      "title": "Dragon Ball Xenoverse 3 Characters and Roster",
+      "subtitle": "Meet the key faces of AGE 1000, including the player-created protagonist, Great Saiya Squad allies, original debut characters, and Dragon Ball heroes tied to combat systems.",
+      "intro": "Dragon Ball Xenoverse 3 moves the series into AGE 1000, a new West City setting where players create their own protagonist and join the Great Saiya Squad. This roster section focuses on story introductions, original characters, and Soul Switch heroes shown through official Bandai Namco and storefront information.",
+      "displayType": "card-list",
+      "items": [
+        {
+          "name": "Player-Created Protagonist",
+          "type": "Custom Hero",
+          "role": "Main playable character",
+          "faction": "Great Saiya Squad",
+          "details": "Players become the protagonist they choose to create and take their place in the story of West City."
+        },
+        {
+          "name": "Bulma",
+          "type": "Returning Dragon Ball Character",
+          "role": "Story introduction",
+          "faction": "West City",
+          "details": "Bulma appears in the Welcome to West City trailer and helps introduce the player to the AGE 1000 setting."
+        },
+        {
+          "name": "Gamma 1",
+          "type": "Returning Dragon Ball Character",
+          "role": "Great Saiya Squad contact",
+          "faction": "Great Saiya Squad",
+          "details": "Gamma 1 welcomes players into the ranks of the Great Saiya Squad and appears in the West City reveal."
+        },
+        {
+          "name": "Brett",
+          "type": "Original Debut Character",
+          "role": "West City cast member",
+          "faction": "AGE 1000",
+          "details": "Brett is one of the original characters making a franchise debut in Dragon Ball Xenoverse 3."
+        },
+        {
+          "name": "Lilica",
+          "type": "Original Debut Character",
+          "role": "West City cast member",
+          "faction": "AGE 1000",
+          "details": "Lilica is listed among the new original characters introduced for the AGE 1000 story."
+        },
+        {
+          "name": "ROM",
+          "type": "Original Debut Character",
+          "role": "West City cast member",
+          "faction": "AGE 1000",
+          "details": "ROM is part of the new cast making its debut in Dragon Ball Xenoverse 3."
+        },
+        {
+          "name": "Tap",
+          "type": "Original Debut Character",
+          "role": "West City cast member",
+          "faction": "AGE 1000",
+          "details": "Tap is one of the original characters players meet in the new West City story."
+        },
+        {
+          "name": "Krillin",
+          "type": "Soul Switch Character",
+          "role": "Temporary soul power",
+          "faction": "Dragon Ball Allies",
+          "details": "Krillin is one of the Dragon Ball characters whose soul power can be harnessed through the Soul Switch mechanic."
+        },
+        {
+          "name": "Piccolo",
+          "type": "Soul Switch Character",
+          "role": "Temporary soul power",
+          "faction": "Dragon Ball Allies",
+          "details": "Piccolo is included in the Soul Switch examples, letting players gain new abilities during combat."
+        },
+        {
+          "name": "Vegeta",
+          "type": "Soul Switch Character",
+          "role": "Temporary soul power",
+          "faction": "Dragon Ball Allies",
+          "details": "Vegeta is listed as a Dragon Ball soul players can temporarily harness through Soul Switch."
+        },
+        {
+          "name": "Future Trunks",
+          "type": "Soul Switch Character",
+          "role": "Temporary soul power",
+          "faction": "Dragon Ball Allies",
+          "details": "Future Trunks is included among the Soul Switch examples for temporary combat enhancement."
+        },
+        {
+          "name": "Tien",
+          "type": "Soul Switch Character",
+          "role": "Temporary soul power",
+          "faction": "Dragon Ball Allies",
+          "details": "Tien is one of the Soul Switch examples used to gain new abilities in battle."
+        }
+      ]
+    },
+    "dbxv3BuildsCustomization": {
+      "eyebrow": "Builds",
+      "title": "Dragon Ball Xenoverse 3 Builds and Customization Systems",
+      "subtitle": "Plan around the core customization pillars: a created protagonist, high-speed action, Ki Attacks, West City traversal, Soul Assist, and Soul Switch.",
+      "intro": "Dragon Ball Xenoverse 3 is built around creating your own hero in an unexplored Dragon Ball world. The combat and customization loop centers on avatar identity, character customization, fast movement, Ki-based attacks, ally attacks, and temporary soul powers.",
+      "displayType": "build-grid",
+      "items": [
+        {
+          "name": "Created Hero Identity",
+          "category": "Avatar Foundation",
+          "focus": "Player-created protagonist",
+          "details": "Players choose the hero they want to be and become the protagonist they create.",
+          "playerUse": "Build your hero identity before stepping into the AGE 1000 story."
+        },
+        {
+          "name": "Extensive Character Customization",
+          "category": "Customization",
+          "focus": "Personalized character setup",
+          "details": "The Steam page describes Dragon Ball Xenoverse 3 as an action-adventure experience packed with extensive character customization options.",
+          "playerUse": "Shape the hero's look and combat identity around your preferred play style."
+        },
+        {
+          "name": "High-Speed Action",
+          "category": "Combat Style",
+          "focus": "Fast movement and aerial battle flow",
+          "details": "Combat expands the series' signature high-speed action, with players soaring through West City and boosting across the battlefield.",
+          "playerUse": "Use speed, positioning, and movement flow to control fights."
+        },
+        {
+          "name": "Ki Attack Combat",
+          "category": "Combat Tool",
+          "focus": "Energy-based offense",
+          "details": "Players can unleash powerful Ki Attacks against enemies during battles.",
+          "playerUse": "Use Ki Attacks as the core ranged and burst-damage layer of combat."
+        },
+        {
+          "name": "Soul Assist",
+          "category": "Ally Mechanic",
+          "focus": "Team-up attack support",
+          "details": "Soul Assist lets players unleash a powerful attack alongside a powerful ally from the Dragon Ball universe.",
+          "playerUse": "Trigger ally power for stronger offensive moments during battle."
+        },
+        {
+          "name": "Soul Switch",
+          "category": "Temporary Power System",
+          "focus": "Harness a Dragon Ball character's soul",
+          "details": "Soul Switch lets players temporarily use the power of characters such as Krillin, Piccolo, Vegeta, Future Trunks, and Tien to gain new abilities.",
+          "playerUse": "Switch into a temporary power state to change abilities and strengthen combat options."
+        }
+      ]
+    },
+    "dbxv3EditionsPrice": {
+      "eyebrow": "Store Guide",
+      "title": "Dragon Ball Xenoverse 3 Editions, Price, and Wishlist Guide",
+      "subtitle": "Compare the official storefront pages for Steam, PlayStation 5, Xbox Series X|S, and Bandai Namco's game page before release.",
+      "intro": "Dragon Ball Xenoverse 3 is listed for 2027 with wishlist access across official storefronts. The official pages show platform availability, wishlist status, release year, publisher, developer, genre, and product descriptions.",
+      "displayType": "comparison-table",
+      "items": [
+        {
+          "storefront": "Bandai Namco Official Site",
+          "platform": "PlayStation 5, Xbox Series X|S, Steam",
+          "releaseStatus": "2027",
+          "wishlistStatus": "Wishlist Now",
+          "price": "Not listed",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "DIMPS",
+          "publisher": "Bandai Namco Entertainment",
+          "genre": "Action / Adventure",
+          "href": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-3"
+        },
+        {
+          "storefront": "Steam",
+          "platform": "PC via Steam",
+          "releaseStatus": "Planned Release Date: 2027",
+          "wishlistStatus": "Wishlist available",
+          "price": "Not listed",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "Dimps Corporation",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "genre": "Action, Adventure, RPG",
+          "href": "https://store.steampowered.com/app/1857810/DRAGON_BALL_XENOVERSE_3/"
+        },
+        {
+          "storefront": "PlayStation Store",
+          "platform": "PlayStation 5",
+          "releaseStatus": "Announced, releases in 2027",
+          "wishlistStatus": "Add to Wishlist",
+          "price": "Not listed",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "DIMPS",
+          "publisher": "Bandai Namco Entertainment America Inc.",
+          "genre": "Fighting, Casual, Action",
+          "href": "https://store.playstation.com/en-us/concept/10013126/"
+        },
+        {
+          "storefront": "Xbox Store",
+          "platform": "Xbox Series X|S",
+          "releaseStatus": "2027",
+          "wishlistStatus": "Store page available",
+          "price": "Not listed",
+          "editionInfo": "DRAGON BALL XENOVERSE 3",
+          "developer": "DIMPS",
+          "publisher": "Bandai Namco Entertainment",
+          "genre": "Action / Adventure",
+          "href": "https://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-3/9n30klm8jp2s"
+        }
+      ]
+    },
+    "dbxv3CodesBonuses": {
+      "eyebrow": "Codes",
+      "title": "Dragon Ball Xenoverse 3 Codes, Bonuses, and Launch Rewards",
+      "subtitle": "Track official redeem codes, preorder bonuses, platform rewards, newsletter updates, and launch reward status from Bandai Namco and official storefronts.",
+      "intro": "Dragon Ball Xenoverse 3 highlights wishlist access, store listings, platform availability, and the Bandai Namco email signup. This section organizes the official reward channels and wishlist options across Bandai Namco and each storefront.",
+      "displayType": "code-cards",
+      "items": [
+        {
+          "name": "Official Redeem Codes",
+          "status": "No active official codes listed",
+          "rewardType": "Redeem codes",
+          "whereToCheck": "Bandai Namco official game page and news page",
+          "action": "Use only codes published through official Bandai Namco channels."
+        },
+        {
+          "name": "Preorder Bonuses",
+          "status": "No preorder bonus listed",
+          "rewardType": "Preorder rewards",
+          "whereToCheck": "Official site, Steam page, PlayStation Store, and Xbox Store",
+          "action": "Track the storefront pages for edition or preorder updates."
+        },
+        {
+          "name": "Platform Bonuses",
+          "status": "No platform-exclusive bonus listed",
+          "rewardType": "Platform rewards",
+          "whereToCheck": "Steam, PlayStation Store, and Xbox Store listings",
+          "action": "Compare official store pages when platform-specific editions appear."
+        },
+        {
+          "name": "Bandai Namco Email Updates",
+          "status": "Signup available",
+          "rewardType": "News and marketing updates",
+          "whereToCheck": "Bandai Namco official Dragon Ball Xenoverse 3 page",
+          "action": "Use the official email signup to receive Dragon Ball Xenoverse 3 updates."
+        },
+        {
+          "name": "Steam Wishlist",
+          "status": "Wishlist available",
+          "rewardType": "Release notification",
+          "whereToCheck": "Steam store page",
+          "action": "Add the game to a Steam wishlist to receive availability updates."
+        },
+        {
+          "name": "PlayStation Wishlist",
+          "status": "Wishlist available",
+          "rewardType": "Release notification",
+          "whereToCheck": "PlayStation Store concept page",
+          "action": "Add the game to a PlayStation wishlist for store updates."
         }
       ]
     }

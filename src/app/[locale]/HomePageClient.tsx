@@ -35,7 +35,15 @@ const TOOLS_SECTION_IDS = [
   "official-news-trailer-timeline",
   "age-1000-story-guide",
   "gameplay-combat-guide",
+  "characters-and-roster",
+  "builds-and-customization",
+  "editions-price-wishlist",
+  "codes-and-bonuses",
 ];
+
+// 模块内卡片图标（每个模块内每张卡不同图标，避免重复）
+const EDITIONS_ICONS = ["Store", "Globe", "Smartphone", "Laptop"];
+const CODES_ICONS = ["Gift", "Mail", "Tag", "Bell", "Star", "Check"];
 
 export default function HomePageClient({
   latestArticles,
@@ -512,6 +520,320 @@ export default function HomePageClient({
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: module4 → module5 阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 5: Characters and Roster (card-list) */}
+      <section
+        id="characters-and-roster"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              {t.modules.dbxv3CharactersRoster.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.dbxv3CharactersRoster.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.dbxv3CharactersRoster.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto">
+              {t.modules.dbxv3CharactersRoster.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.dbxv3CharactersRoster.items.map(
+              (character: any, index: number) => (
+                <div
+                  key={index}
+                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <span
+                    className="inline-flex items-center rounded-full px-3 py-1 mb-3
+                               bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                               text-xs font-medium text-[hsl(var(--nav-theme-light))]"
+                  >
+                    {character.type}
+                  </span>
+                  <h3 className="font-bold text-base md:text-lg mb-2">
+                    {character.name}
+                  </h3>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    <span className="font-medium text-foreground/80">
+                      {character.role}
+                    </span>
+                    <span className="mx-2 text-border">•</span>
+                    <span>{character.faction}</span>
+                  </p>
+                  <p className="text-sm md:text-base text-muted-foreground">
+                    {character.details}
+                  </p>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Builds and Customization (build-grid) */}
+      <section
+        id="builds-and-customization"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              {t.modules.dbxv3BuildsCustomization.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.dbxv3BuildsCustomization.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.dbxv3BuildsCustomization.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto">
+              {t.modules.dbxv3BuildsCustomization.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.dbxv3BuildsCustomization.items.map(
+              (build: any, index: number) => (
+                <div
+                  key={index}
+                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <span
+                    className="inline-flex items-center rounded-full px-3 py-1 mb-3
+                               bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                               text-xs font-medium text-[hsl(var(--nav-theme-light))]"
+                  >
+                    {build.category}
+                  </span>
+                  <h3 className="font-bold text-lg md:text-xl mb-1.5">
+                    {build.name}
+                  </h3>
+                  <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-2">
+                    {build.focus}
+                  </p>
+                  <p className="text-sm md:text-base text-muted-foreground mb-4">
+                    {build.details}
+                  </p>
+                  <div className="rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)] px-3 py-2.5">
+                    <p className="text-sm text-foreground/90">
+                      <span className="font-semibold">How to use: </span>
+                      {build.playerUse}
+                    </p>
+                  </div>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: module6 → module7 阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Editions, Price, and Wishlist Guide (comparison-table) */}
+      <section
+        id="editions-price-wishlist"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              {t.modules.dbxv3EditionsPrice.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.dbxv3EditionsPrice.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.dbxv3EditionsPrice.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto">
+              {t.modules.dbxv3EditionsPrice.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.dbxv3EditionsPrice.items.map(
+              (store: any, index: number) => {
+                const icon = EDITIONS_ICONS[index % EDITIONS_ICONS.length];
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                        <DynamicIcon
+                          name={icon}
+                          className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                        />
+                      </div>
+                      <h3 className="font-bold text-base md:text-lg">
+                        {store.storefront}
+                      </h3>
+                    </div>
+                    <dl className="flex-1 space-y-2 text-sm mb-4">
+                      <div className="flex justify-between gap-3">
+                        <dt className="text-muted-foreground">Platform</dt>
+                        <dd className="text-right font-medium">{store.platform}</dd>
+                      </div>
+                      <div className="flex justify-between gap-3">
+                        <dt className="text-muted-foreground">Release</dt>
+                        <dd className="text-right font-medium">
+                          {store.releaseStatus}
+                        </dd>
+                      </div>
+                      <div className="flex justify-between gap-3">
+                        <dt className="text-muted-foreground">Wishlist</dt>
+                        <dd className="text-right font-medium">
+                          {store.wishlistStatus}
+                        </dd>
+                      </div>
+                      <div className="flex justify-between gap-3">
+                        <dt className="text-muted-foreground">Price</dt>
+                        <dd className="text-right font-medium">{store.price}</dd>
+                      </div>
+                      <div className="flex justify-between gap-3">
+                        <dt className="text-muted-foreground">Developer</dt>
+                        <dd className="text-right font-medium">
+                          {store.developer}
+                        </dd>
+                      </div>
+                      <div className="flex justify-between gap-3">
+                        <dt className="text-muted-foreground">Genre</dt>
+                        <dd className="text-right font-medium">{store.genre}</dd>
+                      </div>
+                    </dl>
+                    <a
+                      href={store.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-lg border border-border hover:bg-white/10 text-sm font-medium transition-colors"
+                    >
+                      Visit Store
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Codes and Bonuses (code-cards) */}
+      <section
+        id="codes-and-bonuses"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-4
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              {t.modules.dbxv3CodesBonuses.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.dbxv3CodesBonuses.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.dbxv3CodesBonuses.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto">
+              {t.modules.dbxv3CodesBonuses.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.dbxv3CodesBonuses.items.map(
+              (reward: any, index: number) => {
+                const icon = CODES_ICONS[index % CODES_ICONS.length];
+                const isAvailable = /available|signup/i.test(reward.status);
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                        <DynamicIcon
+                          name={icon}
+                          className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                        />
+                      </div>
+                      <h3 className="font-bold text-base md:text-lg">
+                        {reward.name}
+                      </h3>
+                    </div>
+                    <span
+                      className={`inline-flex items-center rounded-full px-3 py-1 mb-3 text-xs font-medium border ${
+                        isAvailable
+                          ? "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]"
+                          : "bg-white/5 border-border text-muted-foreground"
+                      }`}
+                    >
+                      {reward.status}
+                    </span>
+                    <p className="text-xs text-muted-foreground mb-1">
+                      <span className="font-medium text-foreground/70">
+                        Type:{" "}
+                      </span>
+                      {reward.rewardType}
+                    </p>
+                    <p className="text-xs text-muted-foreground mb-3">
+                      <span className="font-medium text-foreground/70">
+                        Where to check:{" "}
+                      </span>
+                      {reward.whereToCheck}
+                    </p>
+                    <p className="text-sm text-foreground/90">{reward.action}</p>
+                  </div>
+                );
+              },
+            )}
           </div>
         </div>
       </section>
