@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, type ReactNode } from "react";
 import { Sparkles, Gamepad2, ExternalLink, Clock } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -11,6 +11,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -24,8 +25,34 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
   />
 );
 
+// 可点击的模块标题：当存在匹配的文章内页时，把 h2 标题文字包成内链，否则渲染纯文本
+function LinkedH2({
+  href,
+  className,
+  children,
+}: {
+  href?: string | null;
+  className?: string;
+  children: ReactNode;
+}) {
+  if (href) {
+    return (
+      <h2 className={className}>
+        <Link
+          href={href}
+          className="transition-colors hover:text-[hsl(var(--nav-theme-light))]"
+        >
+          {children}
+        </Link>
+      </h2>
+    );
+  }
+  return <h2 className={className}>{children}</h2>;
+}
+
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
+  moduleLinkMap: ModuleLinkMap;
   locale: string;
 }
 
@@ -47,6 +74,7 @@ const CODES_ICONS = ["Gift", "Mail", "Tag", "Bell", "Star", "Check"];
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -314,9 +342,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3ReleaseDatePlatforms.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3ReleaseDatePlatforms"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3ReleaseDatePlatforms.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3ReleaseDatePlatforms.subtitle}
             </p>
@@ -378,9 +409,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3OfficialNewsTimeline.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3OfficialNewsTimeline"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3OfficialNewsTimeline.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3OfficialNewsTimeline.subtitle}
             </p>
@@ -429,9 +463,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3Age1000Story.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3Age1000Story"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3Age1000Story.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3Age1000Story.subtitle}
             </p>
@@ -488,9 +525,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3GameplayCombat.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3GameplayCombat"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3GameplayCombat.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3GameplayCombat.subtitle}
             </p>
@@ -550,9 +590,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3CharactersRoster.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3CharactersRoster"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3CharactersRoster.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3CharactersRoster.subtitle}
             </p>
@@ -609,9 +652,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3BuildsCustomization.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3BuildsCustomization"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3BuildsCustomization.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3BuildsCustomization.subtitle}
             </p>
@@ -682,9 +728,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3EditionsPrice.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3EditionsPrice"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3EditionsPrice.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3EditionsPrice.subtitle}
             </p>
@@ -776,9 +825,12 @@ export default function HomePageClient({
             >
               {t.modules.dbxv3CodesBonuses.eyebrow}
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["dbxv3CodesBonuses"]?.url}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.dbxv3CodesBonuses.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
               {t.modules.dbxv3CodesBonuses.subtitle}
             </p>
