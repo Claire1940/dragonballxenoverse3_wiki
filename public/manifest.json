@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Dragon Ball Xenoverse 3 Wiki - Release, Builds & Characters",
+  "short_name": "DBX3 Wiki",
+  "description": "Dragon Ball Xenoverse 3 Wiki covers the release date, platforms, West City, AGE 1000, races, Soul Assist, Soul Switch, confirmed characters, trailers and beginner guides.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#5996DC",
+  "background_color": "#06070a",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

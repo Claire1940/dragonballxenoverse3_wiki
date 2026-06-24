@@ -1,14 +1,22 @@
 "use client";
 
-import { useMemo } from "react";
-import { ExternalLink } from "lucide-react";
+import { useMemo, useState } from "react";
+import { Play, ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
   title: string;
+  /** 本地视频预览封面（poster），默认使用主题 hero.webp，避免依赖 YouTube 缩略图 */
+  poster?: string;
 }
 
-export function VideoFeature({ videoId, title }: VideoFeatureProps) {
+export function VideoFeature({
+  videoId,
+  title,
+  poster = "/images/hero.webp",
+}: VideoFeatureProps) {
+  const [playing, setPlaying] = useState(false);
+
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
@@ -22,15 +30,47 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
-          title={title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div className="relative w-full overflow-hidden rounded-lg aspect-video bg-black">
+        {playing ? (
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={embedUrl}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setPlaying(true)}
+            className="group absolute inset-0 w-full h-full"
+            aria-label={`Play video: ${title}`}
+          >
+            {/* 本地 poster（主题 hero 图），不依赖 YouTube 默认缩略图 */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={poster}
+              alt={title}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+            />
+            {/* 渐变遮罩，增强播放按钮对比度 */}
+            <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/30" />
+            {/* 播放按钮 */}
+            <span className="absolute inset-0 flex items-center justify-center">
+              <span className="flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-red-600 shadow-2xl ring-4 ring-white/30 transition-transform duration-200 group-hover:scale-110 group-active:scale-95">
+                <Play className="w-7 h-7 md:w-9 md:h-9 text-white translate-x-0.5 fill-white" />
+              </span>
+            </span>
+            {/* 视频标题 */}
+            <span className="absolute bottom-0 left-0 right-0 p-4 md:p-6 text-left">
+              <span className="text-white font-semibold text-sm md:text-lg drop-shadow-lg line-clamp-2">
+                {title}
+              </span>
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">
