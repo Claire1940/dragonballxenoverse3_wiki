@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 3 Multiplayer: Guia de Co-Op e Táticas",
+  description: "Domine o combate cooperativo e as mecânicas multiplayer de Dragon Ball Xenoverse 3. Aprenda sobre o co-op de 4 jogadores, Soul Switch e estratégias de batalha contra chefes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Guide",
+  date: "2026-06-29",
+  author: "Equipe da Wiki de Dragon Ball Xenoverse 3",
+  keywords: "dragon ball xenoverse 3, multiplayer, co-op, guia, táticas, soul switch, combate"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **jogabilidade co-op** no **multiplayer de dragon ball xenoverse 3** suporta até quatro jogadores ou bots em missões.
+- O **gerenciamento de recursos** foi reformulado, removendo a estamina e unificando ataque e defesa sob uma única barra de Ki.
+- O **Soul Switch** substitui o slot tradicional de despertar, permitindo trocas temporárias de personagens durante as batalhas.
+- **Encontros com chefes** exigem posicionamento tático e cobertura do cenário para sobreviver a ataques massivos de área de efeito.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral do Multiplayer de Dragon Ball Xenoverse 3">
+
+O cenário multiplayer está passando por uma evolução massiva com o lançamento da aguardada sequência [1]. Desenvolvido pela DIMPS e publicado pela Bandai Namco, o título está oficialmente agendado para lançamento em 2027 no PlayStation 5, Xbox Series X|S e Steam [1]. O jogo muda a dinâmica cooperativa tradicional ao introduzir um robusto sistema co-op de quatro jogadores, permitindo que equipes de patrulheiros do tempo enfrentem missões, explorem mundos centrais expansivos e desafiem chefes colossais juntos.
+
+**Destaques do Vídeo:**
+- **Exploração do Lobby**: Uma olhada na sala personalizável do início do jogo e no movimentado lobby da Corporação do Grande Saiyaman (GS Corps).
+- **Co-Op de Quatro Jogadores**: Combate em tempo real demonstrando como as raças Terráqueo, Saiyajin, Majin e Freeza lutam lado a lado.
+- **Reformulação do Combate**: Demonstração do novo sistema de recursos focado em Ki e mecânicas de recarga de habilidades.
+- **Mecânicas de Batalha de Chefe**: Uma análise estratégica do encontro com Broly (Super) usando cobertura do cenário.
+
+<YouTubeEmbed videoId="CyCbZyD7XnU" title="Dragon Ball Xenoverse 3 Primeira Gameplay! Missão de Batalha, Luta de Chefe e Exploração do Lobby" />
+
+Nesta nova iteração, os jogadores se reúnem no lobby da Corporação do Grande Saiyaman, onde mentores icônicos como Goku, Vegeta e Trunks circulam livremente. As missões cooperativas são projetadas para um grupo de quatro personagens. Se você preferir jogar sozinho ou não tiver um lobby cheio, bots de IA altamente capazes preencherão perfeitamente os slots restantes para garantir que sua equipe esteja sempre na capacidade máxima de combate.
+
+| Recurso | Padrão Xenoverse 2 | Padrão Xenoverse 3 |
+| --- | --- | --- |
+| **Tamanho Máx. do Grupo Co-Op** | 3 Jogadores | **4 Jogadores** |
+| **Organização do Lobby** | Hub de Conton City | **Hub da Corporação do Grande Saiyaman** |
+| **Matchmaking Solo** | Companheiros de IA Opcionais | **Preenchimento Automático com Bots** |
+| **Raças Confirmadas** | Saiyajin, Terráqueo, Majin, Freeza, Namekuseijin | **Saiyajin, Terráqueo, Majin, Freeza** |
+
+<Callout type="warning" title="Composição do Grupo">
+Embora os bots de IA sejam altamente competentes, as missões de fim de jogo de alta dificuldade geralmente exigem a coordenação de jogadores reais para executar estratégias de defesa ambiental com sucesso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sistema de Combate e Gerenciamento de Recursos">
+
+O combate no **multiplayer de dragon ball xenoverse 3** introduz uma mudança fundamental em relação à base mecânica de seu antecessor. A mudança mais significativa é a remoção completa de uma barra de estamina dedicada. Em vez disso, tanto as manobras ofensivas quanto as ações defensivas são governadas por um recurso de Ki único e unificado. Este sistema simplificado força os jogadores a tomar decisões críticas em frações de segundo durante confrontos intensos.
+
+Além disso, ataques especiais como a Investida Kaioken e o icônico Kamehameha não consomem mais Ki. Em vez disso, eles operam em temporizadores de recarga individuais. Essa escolha de design evita que os jogadores abusem de habilidades de alto dano, mudando o meta para o tempo tático e a preservação de combos.
+
+| Elemento de Combate | Sistema Antigo (Xenoverse 2) | Novo Sistema (Xenoverse 3) |
+| --- | --- | --- |
+| **Super Ataques** | Consumia recurso de Ki | **Regido por temporizadores de recarga** |
+| **Escapes Defensivos** | Consumia barra de Estamina | **Sem slot de escape dedicado** |
+| **Função do Ki** | Exclusivamente para habilidades ofensivas | **Unifica ataque e defesa** |
+| **Limites de Recursos** | Escalado via atributos do personagem | **Homogeneizado (geralmente 5 barras)** |
+
+Sem um slot de habilidade de escape dedicado, os jogadores devem contar com bloqueios ativos, esquivas perfeitas (perfect vanishes) e fogo de cobertura em equipe para sair dos combos inimigos. Como o Ki é um recurso compartilhado para movimentação e bloqueio, gerenciar seu medidor é a diferença entre manter uma ofensiva implacável ou ficar completamente vulnerável.
+
+<Callout type="tip" title="Gerenciamento de Recarga">
+Como os super ataques são gratuitos, mas limitados por recargas, espace suas habilidades para garantir que você sempre tenha uma opção ofensiva pronta para atordoar os inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecânicas de Soul Assist e Soul Switch">
+
+Para aprimorar a experiência cooperativa, os desenvolvedores introduziram duas mecânicas inovadoras: Soul Assist e Soul Switch. Esses sistemas permitem que os jogadores aproveitem o poder dos históricos Guerreiros Z (e potencialmente vilões icônicos) para virar a maré da batalha.
+
+O Soul Assist funciona como uma mecânica de invocação. Ao executar uma combinação simples de botões, os jogadores podem chamar um guerreiro lendário para realizar um ataque de assistência breve e de alto impacto. O Soul Switch, por outro lado, é uma transformação temporária de personagem completa. Ativar o Soul Switch substitui seu personagem por um herói como Future Trunks por uma duração limitada (geralmente cerca de 40 segundos), trocando completamente seus combos corpo a corpo, super ataques e habilidades definitivas.
+
+<CardGrid cols={2}>
+  <Card title="Utilidade do Soul Assist">
+    - **Invoca guerreiros históricos** para ataques rápidos.
+    - Opera em um **temporizador de recarga rigoroso**.
+    - Não consome preciosos **recursos de Ki**.
+    - Ideal para **quebrar a guarda inimiga** no meio do combo.
+  </Card>
+  <Card title="Poder do Soul Switch">
+    - **Substitui temporariamente seu personagem** inteiramente.
+    - Concede acesso a **conjuntos de movimentos especializados**.
+    - Substitui o tradicional **slot de despertar**.
+    - Apresenta **ataques definitivos únicos** como o Heat Dome.
+  </Card>
+</CardGrid>
+
+Embora o Soul Switch ofereça uma utilidade incrível e um pico de poder temporário, jogadores que usam personagens Saiyajins podem enfrentar um dilema estratégico. Como o Soul Switch ocupa o slot de despertar tradicional, escolhê-lo significa sacrificar transformações icônicas como o Super Saiyajin. As equipes devem equilibrar sua composição para garantir uma mistura de poder de transformação sustentado e trocas de personagens de utilidade explosiva.
+
+| Mecânica | Custo de Recurso | Duração Ativa | Benefício Primário |
+| --- | --- | --- | --- |
+| **Soul Assist** | Nenhum (Recarga) | Instantâneo | Extensão de combo e quebra de guarda |
+| **Soul Switch** | Slot de Despertar | **Aproximadamente 40 segundos** | Reformulação completa de movimentos e ultimate |
+
+<Callout type="success" title="Estratégia de Sinergia">
+Coordene com sua equipe multiplayer para que pelo menos um jogador use uma build de Soul Switch para fornecer dano explosivo, enquanto outros utilizam formas de despertar sustentadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégias de Batalha de Chefe e Táticas de Equipe">
+
+Os encontros com chefes no multiplayer são altamente dinâmicos, exigindo coordenação, consciência ambiental e distribuição precisa de funções. Em batalhas contra ameaças colossais como Broly (Super), os chefes periodicamente desencadearão ataques definitivos devastadores em toda a arena.
+
+Durante essas fases, a sobrevivência depende do uso do ambiente. Por exemplo, quando Broly dispara uma barragem massiva e contínua de rajadas de ki, os jogadores devem rapidamente se proteger atrás de grandes icebergs espalhados pela arena. Ficar em campo aberto durante essas fases geralmente resulta em um nocaute imediato.
+
+<Steps>
+  <Step num="1" title="Atrair o Aggro e Posicionar">
+    Faça com que jogadores focados em defesa atraiam a atenção do chefe enquanto outros se posicionam para atacar pelos flancos.
+  </Step>
+  <Step num="2" title="Esgotar o Ki do Chefe">
+    Desfira combos corpo a corpo implacáveis. Acertar golpes físicos drena ativamente a barra de Ki do chefe, atrasando sua capacidade de usar ataques definitivos.
+  </Step>
+  <Step num="3" title="Usar Cobertura do Cenário">
+    Quando o chefe preparar um ultimate de arena, pare imediatamente de atacar e procure abrigo atrás dos obstáculos ambientais designados.
+  </Step>
+  <Step num="4" title="Executar Punição com Soul Switch">
+    Assim que a fase definitiva do chefe terminar, ative o Soul Switch para causar dano massivo enquanto o chefe está temporariamente fatigado.
+  </Step>
+</Steps>
+
+Outra atualização crucial de jogabilidade é a capacidade de personalizar os combos básicos de corpo a corpo do seu personagem. Os jogadores não estão mais presos a sequências de ataque raciais genéricas; em vez disso, você pode equipar conjuntos inteiros de movimentos aprendidos com mentores como Vegeta ou Trunks. Isso permite que os jogadores adaptem sua velocidade de ataque físico e alcance para melhor se adequar ao seu papel dentro do esquadrão multiplayer.
+
+| Estado do Chefe | Ação do Chefe | Resposta Recomendada da Equipe |
+| --- | --- | --- |
+| **Fase Neutra** | Ataques físicos e de ki padrão | **Flanquear, combo e esgotar Ki do chefe** |
+| **Fase de Carregamento** | Preparando ultimate de arena | **Desengajar e localizar cobertura imediatamente** |
+| **Fase Fatigada** | Vulnerável com Ki esgotado | **Liberar Soul Switch e Ultimates** |
+
+<Callout type="warning" title="Prioridade Corpo a Corpo">
+Não confie apenas em rajadas de ki à distância durante as lutas contra chefes. Golpes corpo a corpo são o método principal para esgotar a barra de Ki de um chefe, tornando o engajamento físico obrigatório.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão e Personalização">
+
+A progressão do personagem foi simplificada para enfatizar o jogo tático em vez do gerenciamento tedioso de estatísticas. O sistema de atributos de RPG foi reduzido a cinco atributos principais, removendo completamente Ki e Estamina do conjunto de níveis. Isso garante que os estoques de recursos permaneçam padronizados para todos os jogadores, colocando o foco inteiramente na habilidade e na personalização da build.
+
+O quarto pessoal personalizável serve como seu quartel-general tático. Aqui, os jogadores podem modificar seus quartos, exibir troféus e preparar seus loadouts antes de mergulhar no matchmaking.
+
+<Checklist
+  id="multiplayer-progression"
+  title="Checklist de Prontidão para o Multiplayer:"
+  items={[
+    "Personalize totalmente seu quartel-general pessoal para desbloquear bônus de preparação.",
+    "Treine com mentores como Vegeta e Trunks para adquirir conjuntos de movimentos corpo a corpo personalizados.",
+    "Equipe um loadout equilibrado consistindo em supers de alta recarga e um ultimate confiável.",
+    "Coordene com seu esquadrão para designar quem usará builds de Soul Switch vs Despertar.",
+    "Domine a mecânica de esquiva perfeita para se defender sem depender de uma barra de estamina."
+  ]}
+/>
+
+| Atributo | Influência no Combate | Foco de Build Recomendado |
+| --- | --- | --- |
+| **HP** | Aumenta a reserva máxima de saúde | **Essencial para builds de tanque/aggro** |
+| **Ataque de Impacto** | Aumenta o dano físico corpo a corpo | **Prioridade para combate de proximidade** |
+| **Defesa de Impacto** | Reduz o dano recebido de corpo a corpo | **Crucial para lutadores de linha de frente** |
+| **Ataque de Rajada** | Aumenta o dano de rajadas de ki e ultimates | **Foco para causadores de dano de retaguarda** |
+| **Defesa de Rajada** | Reduz o dano recebido de rajadas de ki | **Altamente recomendado para raids de chefe** |
+
+<Callout type="tip" title="Alocação de Atributos">
+Como o Ki e a Estamina são padronizados, foque seus pontos de atributo pesadamente em combinar seus atributos de ataque físico ou de rajada com os conjuntos de movimentos do seu mentor equipado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quantos jogadores podem participar do co-op multiplayer de dragon ball xenoverse 3?",
+    answer: "O jogo suporta oficialmente até quatro jogadores em missões cooperativas. Se você não tiver um lobby completo de quatro jogadores reais, bots de IA altamente capazes preencherão automaticamente os slots vazios."
+  },
+  {
+    question: "Existe uma barra de estamina no novo sistema de combate?",
+    answer: "Não, a barra de estamina dedicada foi completamente removida. Tanto as ações ofensivas quanto as defensivas agora estão unificadas sob uma única barra de recurso de Ki universal, exigindo um gerenciamento de recursos mais rigoroso."
+  },
+  {
+    question: "Como funciona a mecânica de Soul Switch?",
+    answer: "O Soul Switch substitui temporariamente seu personagem personalizado por um Guerreiro Z lendário, como o Future Trunks, por cerca de 40 segundos. Essa troca muda completamente seus combos corpo a corpo, super ataques e habilidades definitivas, mas ocupa seu slot de despertar."
+  },
+  {
+    question: "Posso personalizar os combos básicos de corpo a corpo do meu personagem?",
+    answer: "Sim. Em vez de ficar preso a sequências de ataque raciais padrão, os jogadores podem equipar conjuntos de movimentos personalizados aprendidos com mentores como Vegeta e Trunks, aumentando significativamente a variedade da jogabilidade."
+  }
+]} />
+
+<Callout type="info" title="Atualizações Oficiais">
+Para os roteiros de desenvolvimento mais recentes e anúncios oficiais de plataforma, certifique-se de monitorar o [site oficial de Dragon Ball Xenoverse 3](https://www.bandainamcoent.com/games/dragon-ball-xenoverse-3) [1].
+</Callout>
+
+</Section>
